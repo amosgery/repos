@@ -42,6 +42,14 @@
               "target": "Package",
               "version": "[1.2.0.5, )"
             },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -49,8 +57,17 @@
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.0.0.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
             }
           }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
         }
       }
     }
