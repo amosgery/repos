@@ -14,7 +14,7 @@ namespace call
     public class MainActivity : Activity, Android.Views.View.IOnClickListener
 
     {
-        Button btnDial;
+        Button btnDial, btnWeb, btnYoutube, btnEmail, btnSMS, btnMap;
         protected override void OnCreate(Bundle savedInstanceState)
 
         {
@@ -32,11 +32,17 @@ namespace call
 
 
             btnDial = FindViewById<Button>(Resource.Id.btnDial);
-
             btnDial.SetOnClickListener(this);
-
-
-
+            btnWeb = FindViewById<Button>(Resource.Id.btnWeb);
+            btnWeb.SetOnClickListener(this);
+            btnYoutube = FindViewById<Button>(Resource.Id.btnYoutube);
+            btnYoutube.SetOnClickListener(this);
+            btnEmail = FindViewById<Button>(Resource.Id.btnEmail);
+            btnEmail.SetOnClickListener(this);
+            btnSMS = FindViewById<Button>(Resource.Id.btnSMS);
+            btnSMS.SetOnClickListener(this);
+            btnMap = FindViewById<Button>(Resource.Id.btnMap);
+            btnMap.SetOnClickListener(this);
         }
 
         public void OnClick(Android.Views.View view)
@@ -68,7 +74,54 @@ namespace call
                 }
 
             }
+            if (btnWeb == view)
+            {
+                // make sure you have Internet permission set in your AndroidManifest.xml file
+                Intent intent = new Intent(Intent.ActionView, Android.Net.Uri.Parse("https://www.stelvio-sys.com"));
+                StartActivity(intent);
+            }
+            if (btnYoutube == view)
+            {
+                try
+                {
+                    String videoId = "qjgcTEsLbNw";
+                    Intent intent = new Intent(Intent.ActionView);
+                    intent.SetData(Android.Net.Uri.Parse("https://www.youtube.com/watch?v=" + videoId));
+                    //intent.SetPackage("com.google.android.youtube");
+                    //intent.PutExtra("VIDEO_ID", videoId);
+                    StartActivity(intent);
+                }
+                catch (Exception e)
+                {
+                    Toast.MakeText(this, "cant open youtube"+e.Message, ToastLength.Long).Show();
+                }
+            }
+            if (btnEmail == view)
 
+            {
+                String[] emails = { "admin@stelvio-sys.com" };
+                Intent intent = new Intent(Intent.ActionSend);
+                intent.SetType("text/plain");
+                intent.PutExtra(Intent.ExtraEmail, emails);
+                intent.PutExtra(Intent.ExtraSubject, "Sent from Android test app");
+                intent.PutExtra(Intent.ExtraText, "I'm email body.");
+                StartActivity(Intent.CreateChooser(intent, "Send Email"));
+            }
+            if (btnSMS == view)
+
+            {
+                String message = "I love you";
+                Intent intent = new Intent(Intent.ActionView, Android.Net.Uri.Parse("sms:" + phoneNumber));
+                intent.PutExtra("sms_body", message);
+                StartActivity(intent);
+            }
+            if (btnMap == view)
+            {
+                Intent intent = new Intent(Intent.ActionView);
+                intent.SetData(Android.Net.Uri.Parse("geo:19.076,72.8777"));
+                Intent chooser = Intent.CreateChooser(intent, "Launch Map");
+                StartActivity(chooser);
+            }
         }
 
         public void makeCall(string phoneNumber)
