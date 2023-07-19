@@ -27,6 +27,8 @@ namespace gallery
             gallery = FindViewById<LinearLayout>(Resource.Id.gallery);
             btnAdd = FindViewById<Button>(Resource.Id.btnAdd);
             btnAdd.SetOnClickListener(this);
+            loadPictures();
+
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -53,12 +55,12 @@ namespace gallery
             {
                 Android.Graphics.Bitmap bitmap = (Android.Graphics.Bitmap)data.Extras.Get("data");
                 HelperFile.writeFileToInternalStorage(this, bitmap, "image");
-                loadPicture();
+                loadPictures();
 
             }
         }
 
-        public void loadPicture()
+        public void loadPictures()
         { 
             gallery.RemoveAllViews();
             List<Android.Graphics.Bitmap> bitmaps = HelperFile.getAllFils(this);
