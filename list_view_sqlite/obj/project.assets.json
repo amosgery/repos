@@ -2135,7 +2135,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\list_view.csproj",
-      "projectName": "list_view",
+      "projectName": "list_view_sqlite",
       "projectPath": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\list_view.csproj",
       "packagesPath": "C:\\Users\\amos_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\obj\\",

@@ -327,8 +327,6 @@ C:\Users\amos_\source\repos\list_view\obj\Debug\130\stamp\_GeneratePackageManage
 C:\Users\amos_\source\repos\list_view\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\amos_\source\repos\list_view\obj\Debug\130\res\layout\edit_item.xml
 C:\Users\amos_\source\repos\list_view\obj\Debug\130\android\src\crc641c93cb2202903c84\EditActivity.java
-C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\list_view.dll
-C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\list_view.pdb
 C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\com.companyname.list_view.apk
 C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\com.companyname.list_view.aab
 C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\com.companyname.list_view-Signed.aab
@@ -356,8 +354,6 @@ C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\lp\76\jl\files.cache
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\R.txt
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\R.cs.flag
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\list_view.csproj.CoreCompileInputs.cache
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\list_view.dll
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\list_view.pdb
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\bin\com.companyname.list_view.apk
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\bin\base.zip
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\bin\com.companyname.list_view.aab
@@ -401,8 +397,6 @@ C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\uploadflags.txt
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\resolvedassemblies.hash
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\Java.Interop.dll
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\Java.Interop.pdb
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\list_view.dll
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\list_view.pdb
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\Mono.Android.dll
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\Mono.Android.pdb
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\Mono.Security.dll
@@ -569,9 +563,6 @@ C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\androidx\
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\androidx\transition\R.java
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\com\google\android\material\R.java
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\com\google\android\material\snackbar\Snackbar_SnackbarActionClickImplementor.java
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc641c93cb2202903c84\EditActivity.java
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc641c93cb2202903c84\MainActivity.java
-C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc641c93cb2202903c84\ToyAdapter.java
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64396a3fe5f8138e3f\CustomTabsServiceConnectionImpl.java
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64396a3fe5f8138e3f\KeepAliveService.java
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
@@ -683,3 +674,12 @@ C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\stamp\_ConvertResourc
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\list_view_sqlite.dll
+C:\Users\amos_\source\repos\list_view_sqlite\bin\Debug\list_view_sqlite.pdb
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\list_view_sqlite.dll
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\list_view_sqlite.pdb
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\list_view_sqlite.dll
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\assets\list_view_sqlite.pdb
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64ee75ac51af6fb004\EditActivity.java
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64ee75ac51af6fb004\MainActivity.java
+C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\android\src\crc64ee75ac51af6fb004\ToyAdapter.java

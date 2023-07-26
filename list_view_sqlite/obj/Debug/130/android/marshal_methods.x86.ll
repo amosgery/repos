@@ -111,59 +111,59 @@ target triple = "i686-unknown-linux-android"
 	i32 775507847, ; 28: System.IO.Compression => 0x2e394f87 => 65
 	i32 809851609, ; 29: System.Drawing.Common.dll => 0x30455ad9 => 60
 	i32 843511501, ; 30: Xamarin.AndroidX.Print => 0x3246f6cd => 46
-	i32 928116545, ; 31: Xamarin.Google.Guava.ListenableFuture => 0x3751ef41 => 58
-	i32 967690846, ; 32: Xamarin.AndroidX.Lifecycle.Common.dll => 0x39adca5e => 38
-	i32 1012816738, ; 33: Xamarin.AndroidX.SavedState.dll => 0x3c5e5b62 => 48
-	i32 1035644815, ; 34: Xamarin.AndroidX.AppCompat => 0x3dbaaf8f => 21
-	i32 1052210849, ; 35: Xamarin.AndroidX.Lifecycle.ViewModel.dll => 0x3eb776a1 => 41
-	i32 1098259244, ; 36: System => 0x41761b2c => 11
-	i32 1175144683, ; 37: Xamarin.AndroidX.VectorDrawable.Animated => 0x460b48eb => 52
-	i32 1204270330, ; 38: Xamarin.AndroidX.Arch.Core.Common => 0x47c7b4fa => 22
-	i32 1267360935, ; 39: Xamarin.AndroidX.VectorDrawable => 0x4b8a64a7 => 53
-	i32 1292207520, ; 40: SQLitePCLRaw.core.dll => 0x4d0585a0 => 6
-	i32 1293217323, ; 41: Xamarin.AndroidX.DrawerLayout.dll => 0x4d14ee2b => 33
-	i32 1365406463, ; 42: System.ServiceModel.Internals.dll => 0x516272ff => 69
-	i32 1376866003, ; 43: Xamarin.AndroidX.SavedState => 0x52114ed3 => 48
-	i32 1406073936, ; 44: Xamarin.AndroidX.CoordinatorLayout => 0x53cefc50 => 28
-	i32 1411638395, ; 45: System.Runtime.CompilerServices.Unsafe => 0x5423e47b => 15
-	i32 1462112819, ; 46: System.IO.Compression.dll => 0x57261233 => 65
-	i32 1469204771, ; 47: Xamarin.AndroidX.AppCompat.AppCompatResources => 0x57924923 => 20
-	i32 1582372066, ; 48: Xamarin.AndroidX.DocumentFile.dll => 0x5e5114e2 => 32
-	i32 1592978981, ; 49: System.Runtime.Serialization.dll => 0x5ef2ee25 => 68
-	i32 1622152042, ; 50: Xamarin.AndroidX.Loader.dll => 0x60b0136a => 43
-	i32 1636350590, ; 51: Xamarin.AndroidX.CursorAdapter => 0x6188ba7e => 30
-	i32 1639515021, ; 52: System.Net.Http.dll => 0x61b9038d => 59
-	i32 1657153582, ; 53: System.Runtime => 0x62c6282e => 16
-	i32 1658251792, ; 54: Xamarin.Google.Android.Material.dll => 0x62d6ea10 => 57
-	i32 1711441057, ; 55: SQLitePCLRaw.lib.e_sqlite3.android => 0x660284a1 => 7
-	i32 1729485958, ; 56: Xamarin.AndroidX.CardView.dll => 0x6715dc86 => 26
-	i32 1766324549, ; 57: Xamarin.AndroidX.SwipeRefreshLayout => 0x6947f945 => 50
-	i32 1776026572, ; 58: System.Core.dll => 0x69dc03cc => 10
-	i32 1788241197, ; 59: Xamarin.AndroidX.Fragment => 0x6a96652d => 34
-	i32 1808609942, ; 60: Xamarin.AndroidX.Loader => 0x6bcd3296 => 43
-	i32 1813201214, ; 61: Xamarin.Google.Android.Material => 0x6c13413e => 57
-	i32 1867746548, ; 62: Xamarin.Essentials.dll => 0x6f538cf4 => 56
-	i32 1885316902, ; 63: Xamarin.AndroidX.Arch.Core.Runtime.dll => 0x705fa726 => 23
-	i32 1919157823, ; 64: Xamarin.AndroidX.MultiDex.dll => 0x7264063f => 45
-	i32 2011961780, ; 65: System.Buffers.dll => 0x77ec19b4 => 9
-	i32 2019465201, ; 66: Xamarin.AndroidX.Lifecycle.ViewModel => 0x785e97f1 => 41
-	i32 2055257422, ; 67: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll => 0x7a80bd4e => 39
-	i32 2079903147, ; 68: System.Runtime.dll => 0x7bf8cdab => 16
-	i32 2090596640, ; 69: System.Numerics.Vectors => 0x7c9bf920 => 14
-	i32 2097448633, ; 70: Xamarin.AndroidX.Legacy.Support.Core.UI => 0x7d0486b9 => 36
-	i32 2103459038, ; 71: SQLitePCLRaw.provider.e_sqlite3.dll => 0x7d603cde => 8
-	i32 2201231467, ; 72: System.Net.Http => 0x8334206b => 59
-	i32 2217644978, ; 73: Xamarin.AndroidX.VectorDrawable.Animated.dll => 0x842e93b2 => 52
-	i32 2244775296, ; 74: Xamarin.AndroidX.LocalBroadcastManager => 0x85cc8d80 => 44
-	i32 2256548716, ; 75: Xamarin.AndroidX.MultiDex => 0x8680336c => 45
-	i32 2279755925, ; 76: Xamarin.AndroidX.RecyclerView.dll => 0x87e25095 => 47
-	i32 2315684594, ; 77: Xamarin.AndroidX.Annotation.dll => 0x8a068af2 => 19
-	i32 2465273461, ; 78: SQLitePCLRaw.batteries_v2.dll => 0x92f11675 => 5
-	i32 2471841756, ; 79: netstandard.dll => 0x93554fdc => 61
-	i32 2475788418, ; 80: Java.Interop.dll => 0x93918882 => 1
-	i32 2501346920, ; 81: System.Data.DataSetExtensions => 0x95178668 => 64
-	i32 2505896520, ; 82: Xamarin.AndroidX.Lifecycle.Runtime.dll => 0x955cf248 => 40
-	i32 2524290518, ; 83: list_view => 0x96759dd6 => 0
+	i32 869078756, ; 31: list_view_sqlite.dll => 0x33cd16e4 => 0
+	i32 928116545, ; 32: Xamarin.Google.Guava.ListenableFuture => 0x3751ef41 => 58
+	i32 967690846, ; 33: Xamarin.AndroidX.Lifecycle.Common.dll => 0x39adca5e => 38
+	i32 1012816738, ; 34: Xamarin.AndroidX.SavedState.dll => 0x3c5e5b62 => 48
+	i32 1035644815, ; 35: Xamarin.AndroidX.AppCompat => 0x3dbaaf8f => 21
+	i32 1052210849, ; 36: Xamarin.AndroidX.Lifecycle.ViewModel.dll => 0x3eb776a1 => 41
+	i32 1098259244, ; 37: System => 0x41761b2c => 11
+	i32 1175144683, ; 38: Xamarin.AndroidX.VectorDrawable.Animated => 0x460b48eb => 52
+	i32 1204270330, ; 39: Xamarin.AndroidX.Arch.Core.Common => 0x47c7b4fa => 22
+	i32 1267360935, ; 40: Xamarin.AndroidX.VectorDrawable => 0x4b8a64a7 => 53
+	i32 1292207520, ; 41: SQLitePCLRaw.core.dll => 0x4d0585a0 => 6
+	i32 1293217323, ; 42: Xamarin.AndroidX.DrawerLayout.dll => 0x4d14ee2b => 33
+	i32 1365406463, ; 43: System.ServiceModel.Internals.dll => 0x516272ff => 69
+	i32 1376866003, ; 44: Xamarin.AndroidX.SavedState => 0x52114ed3 => 48
+	i32 1406073936, ; 45: Xamarin.AndroidX.CoordinatorLayout => 0x53cefc50 => 28
+	i32 1411638395, ; 46: System.Runtime.CompilerServices.Unsafe => 0x5423e47b => 15
+	i32 1462112819, ; 47: System.IO.Compression.dll => 0x57261233 => 65
+	i32 1469204771, ; 48: Xamarin.AndroidX.AppCompat.AppCompatResources => 0x57924923 => 20
+	i32 1582372066, ; 49: Xamarin.AndroidX.DocumentFile.dll => 0x5e5114e2 => 32
+	i32 1592978981, ; 50: System.Runtime.Serialization.dll => 0x5ef2ee25 => 68
+	i32 1622152042, ; 51: Xamarin.AndroidX.Loader.dll => 0x60b0136a => 43
+	i32 1636350590, ; 52: Xamarin.AndroidX.CursorAdapter => 0x6188ba7e => 30
+	i32 1639515021, ; 53: System.Net.Http.dll => 0x61b9038d => 59
+	i32 1657153582, ; 54: System.Runtime => 0x62c6282e => 16
+	i32 1658251792, ; 55: Xamarin.Google.Android.Material.dll => 0x62d6ea10 => 57
+	i32 1711441057, ; 56: SQLitePCLRaw.lib.e_sqlite3.android => 0x660284a1 => 7
+	i32 1729485958, ; 57: Xamarin.AndroidX.CardView.dll => 0x6715dc86 => 26
+	i32 1766324549, ; 58: Xamarin.AndroidX.SwipeRefreshLayout => 0x6947f945 => 50
+	i32 1776026572, ; 59: System.Core.dll => 0x69dc03cc => 10
+	i32 1788241197, ; 60: Xamarin.AndroidX.Fragment => 0x6a96652d => 34
+	i32 1808609942, ; 61: Xamarin.AndroidX.Loader => 0x6bcd3296 => 43
+	i32 1813201214, ; 62: Xamarin.Google.Android.Material => 0x6c13413e => 57
+	i32 1867746548, ; 63: Xamarin.Essentials.dll => 0x6f538cf4 => 56
+	i32 1885316902, ; 64: Xamarin.AndroidX.Arch.Core.Runtime.dll => 0x705fa726 => 23
+	i32 1919157823, ; 65: Xamarin.AndroidX.MultiDex.dll => 0x7264063f => 45
+	i32 2011961780, ; 66: System.Buffers.dll => 0x77ec19b4 => 9
+	i32 2019465201, ; 67: Xamarin.AndroidX.Lifecycle.ViewModel => 0x785e97f1 => 41
+	i32 2055257422, ; 68: Xamarin.AndroidX.Lifecycle.LiveData.Core.dll => 0x7a80bd4e => 39
+	i32 2079903147, ; 69: System.Runtime.dll => 0x7bf8cdab => 16
+	i32 2090596640, ; 70: System.Numerics.Vectors => 0x7c9bf920 => 14
+	i32 2097448633, ; 71: Xamarin.AndroidX.Legacy.Support.Core.UI => 0x7d0486b9 => 36
+	i32 2103459038, ; 72: SQLitePCLRaw.provider.e_sqlite3.dll => 0x7d603cde => 8
+	i32 2201231467, ; 73: System.Net.Http => 0x8334206b => 59
+	i32 2217644978, ; 74: Xamarin.AndroidX.VectorDrawable.Animated.dll => 0x842e93b2 => 52
+	i32 2244775296, ; 75: Xamarin.AndroidX.LocalBroadcastManager => 0x85cc8d80 => 44
+	i32 2256548716, ; 76: Xamarin.AndroidX.MultiDex => 0x8680336c => 45
+	i32 2279755925, ; 77: Xamarin.AndroidX.RecyclerView.dll => 0x87e25095 => 47
+	i32 2315684594, ; 78: Xamarin.AndroidX.Annotation.dll => 0x8a068af2 => 19
+	i32 2465273461, ; 79: SQLitePCLRaw.batteries_v2.dll => 0x92f11675 => 5
+	i32 2471841756, ; 80: netstandard.dll => 0x93554fdc => 61
+	i32 2475788418, ; 81: Java.Interop.dll => 0x93918882 => 1
+	i32 2501346920, ; 82: System.Data.DataSetExtensions => 0x95178668 => 64
+	i32 2505896520, ; 83: Xamarin.AndroidX.Lifecycle.Runtime.dll => 0x955cf248 => 40
 	i32 2581819634, ; 84: Xamarin.AndroidX.VectorDrawable.dll => 0x99e370f2 => 53
 	i32 2620871830, ; 85: Xamarin.AndroidX.CursorAdapter.dll => 0x9c375496 => 30
 	i32 2732626843, ; 86: Xamarin.AndroidX.Activity => 0xa2e0939b => 18
@@ -202,22 +202,22 @@ target triple = "i686-unknown-linux-android"
 	i32 3501239056, ; 119: Xamarin.AndroidX.AsyncLayoutInflater.dll => 0xd0b0ab10 => 24
 	i32 3509114376, ; 120: System.Xml.Linq => 0xd128d608 => 71
 	i32 3567349600, ; 121: System.ComponentModel.Composition.dll => 0xd4a16f60 => 67
-	i32 3627220390, ; 122: Xamarin.AndroidX.Print.dll => 0xd832fda6 => 46
-	i32 3641597786, ; 123: Xamarin.AndroidX.Lifecycle.LiveData.Core => 0xd90e5f5a => 39
-	i32 3672681054, ; 124: Mono.Android.dll => 0xdae8aa5e => 2
-	i32 3676310014, ; 125: System.Web.Services.dll => 0xdb2009fe => 70
-	i32 3682565725, ; 126: Xamarin.AndroidX.Browser => 0xdb7f7e5d => 25
-	i32 3689375977, ; 127: System.Drawing.Common => 0xdbe768e9 => 60
-	i32 3718780102, ; 128: Xamarin.AndroidX.Annotation => 0xdda814c6 => 19
-	i32 3754567612, ; 129: SQLitePCLRaw.provider.e_sqlite3 => 0xdfca27bc => 8
-	i32 3786282454, ; 130: Xamarin.AndroidX.Collection => 0xe1ae15d6 => 27
-	i32 3829621856, ; 131: System.Numerics.dll => 0xe4436460 => 13
-	i32 3876362041, ; 132: SQLite-net => 0xe70c9739 => 4
-	i32 3885922214, ; 133: Xamarin.AndroidX.Transition.dll => 0xe79e77a6 => 51
-	i32 3896760992, ; 134: Xamarin.AndroidX.Core.dll => 0xe843daa0 => 29
-	i32 3920810846, ; 135: System.IO.Compression.FileSystem.dll => 0xe9b2d35e => 66
-	i32 3921031405, ; 136: Xamarin.AndroidX.VersionedParcelable.dll => 0xe9b630ed => 54
-	i32 3943016661, ; 137: list_view.dll => 0xeb05a8d5 => 0
+	i32 3593582700, ; 122: list_view_sqlite => 0xd631b86c => 0
+	i32 3627220390, ; 123: Xamarin.AndroidX.Print.dll => 0xd832fda6 => 46
+	i32 3641597786, ; 124: Xamarin.AndroidX.Lifecycle.LiveData.Core => 0xd90e5f5a => 39
+	i32 3672681054, ; 125: Mono.Android.dll => 0xdae8aa5e => 2
+	i32 3676310014, ; 126: System.Web.Services.dll => 0xdb2009fe => 70
+	i32 3682565725, ; 127: Xamarin.AndroidX.Browser => 0xdb7f7e5d => 25
+	i32 3689375977, ; 128: System.Drawing.Common => 0xdbe768e9 => 60
+	i32 3718780102, ; 129: Xamarin.AndroidX.Annotation => 0xdda814c6 => 19
+	i32 3754567612, ; 130: SQLitePCLRaw.provider.e_sqlite3 => 0xdfca27bc => 8
+	i32 3786282454, ; 131: Xamarin.AndroidX.Collection => 0xe1ae15d6 => 27
+	i32 3829621856, ; 132: System.Numerics.dll => 0xe4436460 => 13
+	i32 3876362041, ; 133: SQLite-net => 0xe70c9739 => 4
+	i32 3885922214, ; 134: Xamarin.AndroidX.Transition.dll => 0xe79e77a6 => 51
+	i32 3896760992, ; 135: Xamarin.AndroidX.Core.dll => 0xe843daa0 => 29
+	i32 3920810846, ; 136: System.IO.Compression.FileSystem.dll => 0xe9b2d35e => 66
+	i32 3921031405, ; 137: Xamarin.AndroidX.VersionedParcelable.dll => 0xe9b630ed => 54
 	i32 3945713374, ; 138: System.Data.DataSetExtensions.dll => 0xeb2ecede => 64
 	i32 3955647286, ; 139: Xamarin.AndroidX.AppCompat.dll => 0xebc66336 => 21
 	i32 4025784931, ; 140: System.Memory => 0xeff49a63 => 12
@@ -231,21 +231,21 @@ target triple = "i686-unknown-linux-android"
 	i32 40, i32 58, i32 49, i32 49, i32 27, i32 50, i32 25, i32 37, ; 0..7
 	i32 70, i32 35, i32 18, i32 13, i32 38, i32 7, i32 12, i32 56, ; 8..15
 	i32 34, i32 3, i32 11, i32 35, i32 44, i32 63, i32 66, i32 31, ; 16..23
-	i32 54, i32 22, i32 71, i32 5, i32 65, i32 60, i32 46, i32 58, ; 24..31
-	i32 38, i32 48, i32 21, i32 41, i32 11, i32 52, i32 22, i32 53, ; 32..39
-	i32 6, i32 33, i32 69, i32 48, i32 28, i32 15, i32 65, i32 20, ; 40..47
-	i32 32, i32 68, i32 43, i32 30, i32 59, i32 16, i32 57, i32 7, ; 48..55
-	i32 26, i32 50, i32 10, i32 34, i32 43, i32 57, i32 56, i32 23, ; 56..63
-	i32 45, i32 9, i32 41, i32 39, i32 16, i32 14, i32 36, i32 8, ; 64..71
-	i32 59, i32 52, i32 44, i32 45, i32 47, i32 19, i32 5, i32 61, ; 72..79
-	i32 1, i32 64, i32 40, i32 0, i32 53, i32 30, i32 18, i32 20, ; 80..87
+	i32 54, i32 22, i32 71, i32 5, i32 65, i32 60, i32 46, i32 0, ; 24..31
+	i32 58, i32 38, i32 48, i32 21, i32 41, i32 11, i32 52, i32 22, ; 32..39
+	i32 53, i32 6, i32 33, i32 69, i32 48, i32 28, i32 15, i32 65, ; 40..47
+	i32 20, i32 32, i32 68, i32 43, i32 30, i32 59, i32 16, i32 57, ; 48..55
+	i32 7, i32 26, i32 50, i32 10, i32 34, i32 43, i32 57, i32 56, ; 56..63
+	i32 23, i32 45, i32 9, i32 41, i32 39, i32 16, i32 14, i32 36, ; 64..71
+	i32 8, i32 59, i32 52, i32 44, i32 45, i32 47, i32 19, i32 5, ; 72..79
+	i32 61, i32 1, i32 64, i32 40, i32 53, i32 30, i32 18, i32 20, ; 80..87
 	i32 55, i32 28, i32 17, i32 55, i32 51, i32 67, i32 3, i32 14, ; 88..95
 	i32 33, i32 37, i32 68, i32 62, i32 32, i32 72, i32 26, i32 24, ; 96..103
 	i32 4, i32 31, i32 62, i32 23, i32 36, i32 6, i32 29, i32 1, ; 104..111
 	i32 47, i32 15, i32 69, i32 17, i32 61, i32 2, i32 63, i32 24, ; 112..119
-	i32 71, i32 67, i32 46, i32 39, i32 2, i32 70, i32 25, i32 60, ; 120..127
-	i32 19, i32 8, i32 27, i32 13, i32 4, i32 51, i32 29, i32 66, ; 128..135
-	i32 54, i32 0, i32 64, i32 21, i32 12, i32 72, i32 10, i32 42, ; 136..143
+	i32 71, i32 67, i32 0, i32 46, i32 39, i32 2, i32 70, i32 25, ; 120..127
+	i32 60, i32 19, i32 8, i32 27, i32 13, i32 4, i32 51, i32 29, ; 128..135
+	i32 66, i32 54, i32 64, i32 21, i32 12, i32 72, i32 10, i32 42, ; 136..143
 	i32 9, i32 42 ; 144..145
 ], align 4
 

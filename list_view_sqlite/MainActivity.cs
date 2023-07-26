@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Android.App;
 using Android.Content;
+using Android.Database.Sqlite;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
@@ -23,7 +24,6 @@ namespace list_view
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             var db = new SQLiteConnection(Helper.Path());
             //db.DropTable<Toy>();
             db.CreateTable<Toy>();
@@ -95,6 +95,10 @@ namespace list_view
         public List<Toy> getAllToys()
         {
             var db = new SQLiteConnection(Helper.Path());
+            //var hlpDB = new SQLiteOpenHelper(this, Helper.Path(), null, 1);
+            //var list = new List<Toy>();
+
+
             string strsql = string.Format("SELECT * FROM Toys");
             var toys = db.Query<Toy>(strsql);
             toyList = new List<Toy>();
@@ -106,6 +110,7 @@ namespace list_view
 
                 }
             }
+            db.Close();
             return toyList;
         }
     }

@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "list_view.dll" comes first in this list. */
-		"list_view.dll",
+		/* We need to ensure that "list_view_sqlite.dll" comes first in this list. */
+		"list_view_sqlite.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

@@ -1,0 +1,15 @@
+C:\Users\amos_\source\repos\threads\bin\Debug\net6.0\threads.exe
+C:\Users\amos_\source\repos\threads\bin\Debug\net6.0\threads.deps.json
+C:\Users\amos_\source\repos\threads\bin\Debug\net6.0\threads.runtimeconfig.json
+C:\Users\amos_\source\repos\threads\bin\Debug\net6.0\threads.dll
+C:\Users\amos_\source\repos\threads\bin\Debug\net6.0\threads.pdb
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.AssemblyInfoInputs.cache
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.AssemblyInfo.cs
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.dll
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\refint\threads.dll
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.pdb
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\threads.genruntimeconfig.cache
+C:\Users\amos_\source\repos\threads\obj\Debug\net6.0\ref\threads.dll

@@ -12,24 +12,30 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using static Android.Provider.DocumentsContract;
 
 namespace list_view
 {
     public class Helper
     {
-        public static string dbname = "dbTest1";
+        public static string dbname = "dbTest1.db3";
         public Helper()
         {
 
         }
         public static string Path()
         {
-            string path = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), Helper.dbname);
+            // Private Storage:
+            //string path = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), Helper.dbname);
+            // Public storage:
+            string path = System.IO.Path.Combine(Android.OS.Environment.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryDocuments).ToString(), dbname);
             return path;
         }
         public static string BitmapToBase64(Bitmap bitmap)
         {
             string str = "";
+            if (bitmap == null)
+                return str;
             using (var stream = new MemoryStream())
             {
                 bitmap.Compress(Bitmap.CompressFormat.Png, 0, stream);
