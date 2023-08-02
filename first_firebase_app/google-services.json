@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045228157856",
+    "project_id": "xamarinfirstapp-2ae7d",
+    "storage_bucket": "xamarinfirstapp-2ae7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045228157856:android:e18b044407050a258442c5",
+        "android_client_info": {
+          "package_name": "com.amos.first_firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045228157856-v9r8rem4phbi6crgr2otrgu41g8ncpkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRJGi9XMy3Qv-VMhhYL_OCJqO8P1pvFIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045228157856-v9r8rem4phbi6crgr2otrgu41g8ncpkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
