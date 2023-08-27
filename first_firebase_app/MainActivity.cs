@@ -1,10 +1,13 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Telecom;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Firebase.Auth;
+
 
 namespace first_firebase_app
 {
@@ -18,6 +21,7 @@ namespace first_firebase_app
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             btnSave = FindViewById<Button>(Resource.Id.btnSave);
@@ -25,12 +29,19 @@ namespace first_firebase_app
             btnSave.Click += BtnSave_Click;
         }
 
+
         private void BtnSave_Click(object sender, System.EventArgs e)
         {
-            firebaseClient.Child("records").PostAsync(new MyDatabaseRecord
+            if (et.Text != "")
             {
-                MyProperty = et.Text
-            }) ;
+                firebaseClient.Child("records").PostAsync(new MyDatabaseRecord
+                {
+                    MyProperty = et.Text
+                });
+                Toast.MakeText(this, "Message sent: " + et.Text,  ToastLength.Short).Show();
+                et.Text = "";
+
+            }
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

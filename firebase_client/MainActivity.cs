@@ -50,6 +50,7 @@ namespace firebase_client
         private void BtnCheck_Click(object sender, EventArgs e)
         { 
             ReadDataFromFirebase();
+            //subscribe(); // re-subscribe
         }
 
     private void subscribe()
@@ -68,7 +69,7 @@ namespace firebase_client
                         tv.Text = data.Object.MyProperty;
                 }
                 counter++;
-                if (counter > Count)
+                if (counter > Count) // after initialization
                 {
                     mainHandler.Post(() =>  // This code will be executed on the main thread
                         ReadDataFromFirebase());

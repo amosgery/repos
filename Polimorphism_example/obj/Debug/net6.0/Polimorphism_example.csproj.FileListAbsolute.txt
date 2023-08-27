@@ -1,0 +1,15 @@
+C:\Users\amos_\source\repos\Polimorphism_example\bin\Debug\net6.0\Polimorphism_example.exe
+C:\Users\amos_\source\repos\Polimorphism_example\bin\Debug\net6.0\Polimorphism_example.deps.json
+C:\Users\amos_\source\repos\Polimorphism_example\bin\Debug\net6.0\Polimorphism_example.runtimeconfig.json
+C:\Users\amos_\source\repos\Polimorphism_example\bin\Debug\net6.0\Polimorphism_example.dll
+C:\Users\amos_\source\repos\Polimorphism_example\bin\Debug\net6.0\Polimorphism_example.pdb
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.AssemblyInfoInputs.cache
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.AssemblyInfo.cs
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.dll
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\refint\Polimorphism_example.dll
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.pdb
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\Polimorphism_example.genruntimeconfig.cache
+C:\Users\amos_\source\repos\Polimorphism_example\obj\Debug\net6.0\ref\Polimorphism_example.dll

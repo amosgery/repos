@@ -1,0 +1,15 @@
+C:\Users\amos_\source\repos\OOP_sample\bin\Debug\net6.0\OOP_sample.exe
+C:\Users\amos_\source\repos\OOP_sample\bin\Debug\net6.0\OOP_sample.deps.json
+C:\Users\amos_\source\repos\OOP_sample\bin\Debug\net6.0\OOP_sample.runtimeconfig.json
+C:\Users\amos_\source\repos\OOP_sample\bin\Debug\net6.0\OOP_sample.dll
+C:\Users\amos_\source\repos\OOP_sample\bin\Debug\net6.0\OOP_sample.pdb
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.AssemblyInfoInputs.cache
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.AssemblyInfo.cs
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.dll
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\refint\OOP_sample.dll
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.pdb
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\OOP_sample.genruntimeconfig.cache
+C:\Users\amos_\source\repos\OOP_sample\obj\Debug\net6.0\ref\OOP_sample.dll
