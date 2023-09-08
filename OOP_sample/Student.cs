@@ -9,7 +9,7 @@ namespace OOP_sample
     internal class Student : Person
     {
         //Fields:
-        private int[] grades;
+        private int[] grades = { 0 };
 
         //Properties:
         public int[] Grades

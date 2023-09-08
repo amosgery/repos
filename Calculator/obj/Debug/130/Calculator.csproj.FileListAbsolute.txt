@@ -24,6 +24,7 @@ C:\Users\amos_\source\repos\Calculator\bin\Debug\com.companyname.calculator.aab
 C:\Users\amos_\source\repos\Calculator\bin\Debug\com.companyname.calculator-Signed.aab
 C:\Users\amos_\source\repos\Calculator\bin\Debug\com.companyname.calculator-Signed.apk
 C:\Users\amos_\source\repos\Calculator\bin\Debug\com.companyname.calculator-Signed.apk.idsig
+C:\Users\amos_\source\repos\Calculator\obj\Debug\130\R.txt
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\R.cs.flag
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\Calculator.dll
@@ -54,7 +55,7 @@ C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\mipmap-xxhdpi\ic_launch
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\amos_\source\repos\Calculator\obj\Debug\130\R.txt
+C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\drawable\calc.jpg
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\uploadflags.txt
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\resolvedassemblies.hash
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\android\assets\Calculator.dll
@@ -312,4 +313,3 @@ C:\Users\amos_\source\repos\Calculator\obj\Debug\130\stamp\_ConvertResourcesCase
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\Calculator\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\amos_\source\repos\Calculator\obj\Debug\130\res\drawable\calc.jpg

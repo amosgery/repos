@@ -9,8 +9,8 @@ namespace OOP_sample
     internal class Person
     {
         //Fields:
-        string firstName;
-        string lastName;
+        private string firstName = "";
+        private string lastName = "";
 
         //Properties:
 

@@ -5,14 +5,13 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
-using static Android.Icu.Text.IDNA;
 
 namespace Calculator
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
 
 
-    public class MainActivity : AppCompatActivity, View.IOnClickListener
+    public class MainActivity : AppCompatActivity
     {
 
 
