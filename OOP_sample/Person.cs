@@ -8,23 +8,14 @@ namespace OOP_sample
 {
     internal class Person
     {
-        //Fields:
-        private string firstName = "";
-        private string lastName = "";
+
 
         //Properties:
+        public string FirstName { get; set; }
 
-        public string FirstName
-        {
-            get { return firstName; }
-            set { firstName = value; }
-        }
 
-        public string LastName
-        {
-            get { return lastName; }
-            set { lastName = value; }
-        }
+        public string LastName { get; set; }
+
 
         //C'tors:
 

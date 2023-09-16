@@ -108,7 +108,7 @@ namespace XO
                 int j = 0;
                 for (int i = 0; i < 3; i++)
                 {
-                    if (btns[i, j].Text.Length > 0 && btns[i, j].Text.Equals(btns[i, j + 1]) && btns[i, j].Text.Equals(btns[i, j + 2].Text))
+                    if (btns[i, j].Text.Length > 0 && btns[i, j].Text.Equals(btns[i, j + 1].Text) && btns[i, j].Text.Equals(btns[i, j + 2].Text))
                     {
                         if (btns[i, j].Text.Equals("O"))
                             return 1;//0 win  - odd counting

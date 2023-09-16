@@ -18,7 +18,6 @@ foreground;obj\Release\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Release\130\res\layout\activity_main.xml
 item;obj\Release\130\res\values\styles.xml
 LinearLayout;obj\Release\130\res\layout\activity_main.xml
-LinearLayout;obj\Release\130\res\layout\list_item.xml
 LinearLayout;obj\Release\130\res\layout\signin_dialog.xml
 LinearLayout;obj\Release\130\res\layout\signup_dialog.xml
 paths;C:\Users\amos_\source\repos\epicisrael\obj\Release\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -29,4 +28,3 @@ resources;obj\Release\130\res\values\styles.xml
 string;obj\Release\130\res\values\strings.xml
 style;obj\Release\130\res\values\styles.xml
 TextView;obj\Release\130\res\layout\activity_main.xml
-TextView;obj\Release\130\res\layout\list_item.xml

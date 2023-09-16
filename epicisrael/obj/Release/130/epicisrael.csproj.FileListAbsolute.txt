@@ -57,7 +57,6 @@ C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\mipmap-xxxhdpi\ic_lau
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\mipmap-xxxhdpi\ic_launcher_round.png
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\good.png
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\layout\signin_dialog.xml
-C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\layout\list_item.xml
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\layout\signup_dialog.xml
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.png
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.jpg
@@ -147,7 +146,6 @@ C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\androidx\recy
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\androidx\savedstate\R.java
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\androidx\transition\R.java
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\com\google\android\material\R.java
-C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\crc643c027553f29b0c39\ListAdapter.java
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\crc643c027553f29b0c39\MainActivity.java
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\android\src\mono\androidx\appcompat\app\ActionBar_OnMenuVisibilityListenerImplementor.java

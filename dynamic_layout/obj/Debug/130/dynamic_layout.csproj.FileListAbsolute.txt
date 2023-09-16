@@ -55,7 +55,6 @@ C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\res\mipmap-xxhdpi\ic_la
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\res\drawable\a0.png
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\uploadflags.txt
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\resolvedassemblies.hash
 C:\Users\amos_\source\repos\dynamic_layout\obj\Debug\130\android\assets\dynamic_layout.dll

@@ -28,19 +28,22 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn0"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn1"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/btn2"
+            android:id="@+id/btn2"            
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
@@ -56,6 +59,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn3"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
@@ -63,13 +67,15 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn4"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/btn5"
+            android:id="@+id/btn5"            
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
@@ -85,6 +91,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn6"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 
@@ -92,12 +99,14 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn7"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
         <Button
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/btn8"
+            android:textSize="30sp"
             android:layout_margin="2dp"
             />
 

@@ -12,7 +12,7 @@ using System;
 using Firebase.Database.Query;
 using Android.Views;
 using Android.Text;
-
+using Java.Util;
 
 namespace epicisrael
 {
@@ -57,6 +57,7 @@ namespace epicisrael
             btnSignout.Click += btnSignout_click;
             btnCheck.Click += btnCheck_click;
             iv.Visibility = ViewStates.Invisible;
+            et.Enabled = false;
             et.TextChanged += EditText_TextChanged;
 
             // auto login
@@ -186,7 +187,7 @@ namespace epicisrael
                     RaiseNumberAlreayExists(number);
                     return;
                 }
-                var response = await firebaseClient.Child("records").Child(number).PostAsync<dbItem>(new dbItem { }) ;
+                var response = await firebaseClient.Child("0").Child(number).PostAsync<dbItem>(new dbItem { }) ;
                 SetVIcon();
                 Toast.MakeText(this, "נשמר: " + et.Text, ToastLength.Short).Show();
 
@@ -214,7 +215,7 @@ namespace epicisrael
                 int position;
                 string number = et.Text;
                 await ReadValueForNumber(number);
-                if (dateTime[0] == null)
+                if (dateTime == null || dateTime[0] == null)
                 {
                     RaiseNotRegisteredAlert(number);
                     return;
@@ -271,19 +272,27 @@ namespace epicisrael
             try
             {
                 dbItem item = new dbItem();
-                var response = await firebaseClient.Child("records").Child(number).PostAsync<dbItem>(new dbItem
+                var response = await firebaseClient.Child("0").Child(number).PostAsync<dbItem>(new dbItem
                 {
                     Date = item.Date,
                     Time = item.Time
                 });
                 Toast.MakeText(this, "נרשם: " + et.Text, ToastLength.Short).Show();
                 SetVIcon();
+                await ScheduleMethodAsync();
 
             }
             catch (Exception ex)
             {
                 Toast.MakeText(this, ex.Message, ToastLength.Long).Show();
             }
+        }
+
+        private async Task ScheduleMethodAsync()
+        {
+            await Task.Delay(2000);
+            et.Text = string.Empty;
+
         }
 
         private void SetVIcon()
@@ -307,8 +316,9 @@ namespace epicisrael
             // Read a specific value from the database
             try
             {
+                dateTime = null;
                 // Get a reference to the database node
-                var reference = firebaseClient.Child("records").Child(number);
+                var reference = firebaseClient.Child("0").Child(number);
                 int position = 0;
                 var res = await reference.OnceAsync<dbItem>();
                 dateTime = new dbItem[res.Count+1];
@@ -450,6 +460,7 @@ namespace epicisrael
             btnSignout.Enabled = true;
             btnCheck.Enabled = true;
             tv.Text = "User: " + email;
+            et.Enabled = true;
             iv.Visibility = ViewStates.Invisible;
             dialog.Dismiss();
         }
@@ -466,6 +477,7 @@ namespace epicisrael
             btnCheck.Enabled = false;
             btnSignup.Enabled = false;
             iv.Visibility = ViewStates.Invisible;
+            et.Enabled = false;
             et.Text = "";
             tv.Text = "";
             email = "";

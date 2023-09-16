@@ -56,7 +56,6 @@ C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\mipmap-xxxhdpi\ic_launc
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_round.png
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\layout\signin_dialog.xml
-C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\layout\list_item.xml
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\res\layout\signup_dialog.xml
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\uploadflags.txt
 C:\Users\amos_\source\repos\epicisrael\obj\Debug\130\resolvedassemblies.hash
