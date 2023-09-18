@@ -34,11 +34,11 @@ class Program
 
         // Now, myAnimal is of type Animal, but it still refers to the same object as myDog
         myAnimal.Eat();  // Access the Eat() method from the base class
-        myAnimal.Bark(); // <== Error at compile time
+        //myAnimal.Bark(); // <== Error at compile time
 
         // However, you can downcast it back to Dog if needed
-        Dog anotherDog = (Dog)myAnimal;
-        // Dog anotherDog = (Dog)new Animal();  // <= Error at runtime
+        //Dog anotherDog = (Dog)myAnimal;
+        Dog anotherDog = (Dog)new Animal();  // <= Error at runtime
         anotherDog.Bark(); // Now you can access the Bark() method again
 
         Console.ReadLine();

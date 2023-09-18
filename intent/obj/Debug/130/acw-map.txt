@@ -1,6 +1,6 @@
-intent.SecondActivity, intent;crc644369cd8e3b2a7403.SecondActivity
-intent.SecondActivity;crc644369cd8e3b2a7403.SecondActivity
-intent.SecondActivity;crc644369cd8e3b2a7403.SecondActivity
+intent.LoginActivity, intent;crc644369cd8e3b2a7403.LoginActivity
+intent.LoginActivity;crc644369cd8e3b2a7403.LoginActivity
+intent.LoginActivity;crc644369cd8e3b2a7403.LoginActivity
 intent.MainActivity, intent;crc644369cd8e3b2a7403.MainActivity
 intent.MainActivity;crc644369cd8e3b2a7403.MainActivity
 intent.MainActivity;crc644369cd8e3b2a7403.MainActivity

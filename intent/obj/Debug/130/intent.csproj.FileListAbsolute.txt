@@ -55,7 +55,6 @@ C:\Users\amos_\source\repos\intent\obj\Debug\130\res\mipmap-xxhdpi\ic_launcher_r
 C:\Users\amos_\source\repos\intent\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\amos_\source\repos\intent\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\amos_\source\repos\intent\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_round.png
-C:\Users\amos_\source\repos\intent\obj\Debug\130\res\layout\second_activity.xml
 C:\Users\amos_\source\repos\intent\obj\Debug\130\uploadflags.txt
 C:\Users\amos_\source\repos\intent\obj\Debug\130\resolvedassemblies.hash
 C:\Users\amos_\source\repos\intent\obj\Debug\130\android\assets\intent.dll
@@ -314,3 +313,6 @@ C:\Users\amos_\source\repos\intent\obj\Debug\130\stamp\_ConvertResourcesCases.st
 C:\Users\amos_\source\repos\intent\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\intent\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\intent\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\amos_\source\repos\intent\obj\Debug\130\res\layout\login.xml
+C:\Users\amos_\source\repos\intent\obj\Debug\130\res\drawable\login.jpg
+C:\Users\amos_\source\repos\intent\obj\Debug\130\android\src\crc644369cd8e3b2a7403\LoginActivity.java

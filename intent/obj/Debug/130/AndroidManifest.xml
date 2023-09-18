@@ -10,7 +10,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
-    <activity android:label="SecondActivity" android:name="crc644369cd8e3b2a7403.SecondActivity" />
+    <activity android:label="Login" android:name="crc644369cd8e3b2a7403.LoginActivity" />
     <activity android:label="intent" android:name="crc644369cd8e3b2a7403.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

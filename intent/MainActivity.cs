@@ -12,51 +12,38 @@ namespace intent
 
     public class MainActivity : Activity, Android.Views.View.IOnClickListener
     {
-        EditText etFname, etLname;
-        Button btnSave;
+        TextView tv;
+        Button btnLogin;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             // Set our view from the "main" layout resource
-
             SetContentView(Resource.Layout.activity_main);
-
             // Get our button from the layout resource,
-
             // and attach an event to it
-
-            etFname = FindViewById<EditText>(Resource.Id.etFname);
-
-            etLname = FindViewById<EditText>(Resource.Id.etLname);
-
-            btnSave = FindViewById<Button>(Resource.Id.btnSave);
-
-            btnSave.SetOnClickListener(this);
-
-
+            tv = FindViewById<TextView>(Resource.Id.tvDisplay);
+            btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
+            btnLogin.SetOnClickListener(this);
 
         }
-
         public void OnClick(Android.Views.View view)
-
         {
-
-            if (btnSave == view)
-
+            if (btnLogin == view)
             {
-
-                Intent intent = new Intent(this, typeof(SecondActivity));
-                intent.PutExtra("fname", etFname.Text);
-
-                intent.PutExtra("lname", etLname.Text);
-                StartActivity(intent);
+                Intent intent = new Intent(this, typeof(LoginActivity));
+                StartActivityForResult(intent, 0);
+            }
+        }
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            if (resultCode == Result.Ok)
+            {
+                tv.Text = "Welcome " + data.GetStringExtra("username");
+                Toast.MakeText(this, "Login returned: " + data.GetStringExtra("username"), ToastLength.Long).Show();
 
             }
 
         }
-
     }
-
 }
