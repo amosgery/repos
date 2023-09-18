@@ -215,7 +215,7 @@ namespace epicisrael
                 int position;
                 string number = et.Text;
                 await ReadValueForNumber(number);
-                if (dateTime == null || dateTime[0] == null)
+                if (dateTime[0] == null)
                 {
                     RaiseNotRegisteredAlert(number);
                     return;
@@ -290,7 +290,7 @@ namespace epicisrael
 
         private async Task ScheduleMethodAsync()
         {
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             et.Text = string.Empty;
 
         }
@@ -414,7 +414,7 @@ namespace epicisrael
                 string errorMessage = ex.Message;
                 if (ex.GetType() == exception.GetType())
                 {
-                    errorMessage = exception.Reason.ToString();
+                    errorMessage = exception.Reason.ToString() + " :תקלה בחיבור לדטהבייס";
                 }
                 Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
                 builder.SetTitle("Error");
