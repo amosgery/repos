@@ -1,8 +1,6 @@
-﻿using Android;
-using Android.App;
+﻿using Android.App;
 using Android.Widget;
 using Android.OS;
-using System;
 using Android.Content;
 using Android.Runtime;
 namespace intent
