@@ -1,6 +1,6 @@
 ﻿using Android.App;
+using Android.Graphics;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
@@ -27,6 +27,13 @@ namespace TicTacToe_OOP
             gridLayout = FindViewById<GridLayout>(Resource.Id.grid);
             resultText = FindViewById<TextView>(Resource.Id.tv);
             resetButton.Click += (sender, e) => ResetGame();
+            Display display = WindowManager.DefaultDisplay;
+            Point size = new Point();
+            display.GetSize(size);
+            int screenWidth = size.X;
+
+            // Calculate the width of each button (1/3 of the screen width)
+            int buttonWidth = screenWidth / 3;
 
             // Create and populate the game board with buttons
             for (int row = 0; row < 3; row++)
@@ -34,7 +41,8 @@ namespace TicTacToe_OOP
                 for (int col = 0; col < 3; col++)
                 {
                     TicTacToeButton button = new TicTacToeButton(this, row, col);
-                    button.TextSize = 36;
+                    button.TextSize = 76;
+                    button.LayoutParameters = new ViewGroup.LayoutParams(buttonWidth, ViewGroup.LayoutParams.WrapContent);
                     button.Click += (sender, e) => OnButtonClick((TicTacToeButton)sender);
                     gridLayout.AddView(button);
                     game.AddButton(button, row, col);

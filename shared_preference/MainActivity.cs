@@ -2,14 +2,14 @@
 using Android.Widget;
 using Android.OS;
 using System;
-using Android;
+using Android.Content;
 
 namespace shared_preference
 {
     [Activity(Label = "shared_preference", MainLauncher = true)]
     public class MainActivity : Activity, Android.Views.View.IOnClickListener
     {
-        Android.Content.ISharedPreferences sp;
+        ISharedPreferences sp;
         Button btnSave;
         EditText etFname, etLname;
         TextView tvDisplay;
@@ -25,15 +25,13 @@ namespace shared_preference
 
             etFname = FindViewById<EditText>(Resource.Id.etFname);
             etLname = FindViewById<EditText>(Resource.Id.etLname);
-            sp = this.GetSharedPreferences("details", Android.Content.FileCreationMode.Private);
+            sp = this.GetSharedPreferences("details", FileCreationMode.Private);
             tvDisplay = FindViewById<TextView>(Resource.Id.tvDisplay);
             String strfname = sp.GetString("fname", null);
             String strlname = sp.GetString("lname", null);
             if (strlname != null && strfname != null)
             {
-                //tvDisplay.Text = "welcome " + strfname + " " + strlname;
-                etFname.Text = strfname;
-                etLname.Text = strlname;
+                tvDisplay.Text = "welcome " + strfname + " " + strlname;
             }
         }
 

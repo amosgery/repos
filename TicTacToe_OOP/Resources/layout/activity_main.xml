@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/grid"
+        android:layout_weight="1"
         android:columnCount="3"
         android:rowCount="3">
 
@@ -20,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Reset"
+        android:textSize="30sp"
         android:layout_gravity="center"
         android:visibility="invisible" />
     <TextView

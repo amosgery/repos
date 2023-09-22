@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
+﻿
 namespace TicTacToe_OOP
 {
     public class TicTacToeBoard
@@ -29,7 +18,7 @@ namespace TicTacToe_OOP
         public bool IsFull()
         {
             // Implement logic to check if the board is full
-            foreach (Button button in buttons)
+            foreach (TicTacToeButton button in buttons)
             {
                 if (button.Text == "")
                     return false;
