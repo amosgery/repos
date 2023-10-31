@@ -7,6 +7,7 @@ Button;obj\Debug\130\res\layout\edit_item.xml
 cache-path;C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\130\res\values\colors.xml
 color;obj\Debug\130\res\values\ic_launcher_background.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;obj\Debug\130\res\layout\activity_main.xml
 EditText;obj\Debug\130\res\layout\edit_item.xml
 external-cache-path;C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -14,11 +15,13 @@ foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\130\res\layout\edit_item.xml
 ImageView;obj\Debug\130\res\layout\list_item.xml
+item;obj\Debug\130\res\nav_menu.xml
 item;obj\Debug\130\res\values\styles.xml
 LinearLayout;obj\Debug\130\res\layout\activity_main.xml
 LinearLayout;obj\Debug\130\res\layout\edit_item.xml
 LinearLayout;obj\Debug\130\res\layout\list_item.xml
 ListView;obj\Debug\130\res\layout\activity_main.xml
+menu;obj\Debug\130\res\nav_menu.xml
 paths;C:\Users\amos_\source\repos\list_view_sqlite\obj\Debug\130\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Debug\130\res\values\colors.xml
 resources;obj\Debug\130\res\values\ic_launcher_background.xml

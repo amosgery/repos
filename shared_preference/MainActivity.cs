@@ -25,7 +25,7 @@ namespace shared_preference
 
             etFname = FindViewById<EditText>(Resource.Id.etFname);
             etLname = FindViewById<EditText>(Resource.Id.etLname);
-            sp = this.GetSharedPreferences("details", FileCreationMode.Private);
+            sp = GetSharedPreferences("details", FileCreationMode.Private);
             tvDisplay = FindViewById<TextView>(Resource.Id.tvDisplay);
             String strfname = sp.GetString("fname", null);
             String strlname = sp.GetString("lname", null);

@@ -3,15 +3,19 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 using Android.Runtime;
+using Android.Views;
+
 namespace intent
 {
 
     [Activity(Label = "intent", MainLauncher = true)]
 
-    public class MainActivity : Activity, Android.Views.View.IOnClickListener
+    public class MainActivity : Activity, View.IOnClickListener
     {
         TextView tv;
         Button btnLogin;
+        ISharedPreferences sp;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -23,6 +27,12 @@ namespace intent
             tv = FindViewById<TextView>(Resource.Id.tvDisplay);
             btnLogin = FindViewById<Button>(Resource.Id.btnLogin);
             btnLogin.SetOnClickListener(this);
+            sp = GetSharedPreferences("details", FileCreationMode.Private);
+            string strname = sp.GetString("username", null);
+            if (strname != null)
+            {
+                tv.Text = "welcome " + strname;
+            }
 
         }
         public void OnClick(Android.Views.View view)
@@ -37,7 +47,13 @@ namespace intent
         {
             if (resultCode == Result.Ok)
             {
-                tv.Text = "Welcome " + data.GetStringExtra("username");
+                var editor = sp.Edit();
+                string username = data.GetStringExtra("username");
+                tv.Text = "Welcome " + username;
+
+                editor.PutString("username", username);
+                editor.Commit();
+
                 Toast.MakeText(this, "Login returned: " + data.GetStringExtra("username"), ToastLength.Long).Show();
 
             }
