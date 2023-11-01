@@ -6,6 +6,6 @@
     <ActiveDebugProfile>Samsung SM-G990E %28Android 13.0 - API 33%29</ActiveDebugProfile>
     <DefaultDevice>myvdevice</DefaultDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
-    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredDevice>Nexus 10</AndroidDesignerPreferredDevice>
   </PropertyGroup>
 </Project>

@@ -317,3 +317,4 @@ C:\Users\amos_\source\repos\Fragments\obj\Debug\130\stamp\_GeneratePackageManage
 C:\Users\amos_\source\repos\Fragments\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\amos_\source\repos\Fragments\obj\Debug\130\res\layout-large-land\activity_main.xml
 C:\Users\amos_\source\repos\Fragments\obj\Debug\130\res\layout-port\activity_main.xml
+C:\Users\amos_\source\repos\Fragments\obj\Debug\130\res\layout-normal-land\activity_main.xml
