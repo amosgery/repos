@@ -353,3 +353,4 @@ C:\Users\amos_\source\repos\first_firebase_app\obj\Debug\130\android\assets\Micr
 C:\Users\amos_\source\repos\first_firebase_app\obj\Debug\130\android\assets\System.Collections.Immutable.dll
 C:\Users\amos_\source\repos\first_firebase_app\obj\Debug\130\android\assets\System.Memory.dll
 C:\Users\amos_\source\repos\first_firebase_app\obj\Debug\130\android\assets\System.Threading.Tasks.Extensions.dll
+C:\Users\amos_\source\repos\first_firebase_app\obj\Debug\130\android\assets\desktop.ini
