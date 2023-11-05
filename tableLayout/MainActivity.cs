@@ -1,7 +1,10 @@
 ﻿using System;
+using System.ComponentModel;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Text;
+using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 
@@ -18,7 +21,7 @@ namespace tableLayout
 
             gridLayout = FindViewById<GridLayout>(Resource.Id.gridLayout);
 
-            CreateGrid(5, 5);
+            CreateGrid(15, 15);
  
         }
 
@@ -32,7 +35,7 @@ namespace tableLayout
             {
                 for (int col = 0; col < cols; col++)
                 {
-                    EditText editText = new EditText(this)
+                    TableCell editText = new TableCell(this, row, col)
                     {
                         LayoutParameters = new GridLayout.LayoutParams
                         {
@@ -43,14 +46,24 @@ namespace tableLayout
                         }
                     };
 
-                    editText.Gravity = Android.Views.GravityFlags.Center;
-                    editText.InputType = Android.Text.InputTypes.TextVariationVisiblePassword;
+                    editText.Gravity = GravityFlags.Center;
+                    editText.InputType = InputTypes.ClassText | InputTypes.TextVariationVisiblePassword;
                     editText.SetMaxLines(1);
                     editText.SetTextSize(Android.Util.ComplexUnitType.Sp, 150/rows);
-                    editText.SetFilters(new Android.Text.IInputFilter[] { new Android.Text.InputFilterLengthFilter(1) });
+                    editText.SetFilters(new IInputFilter[] { new InputFilterLengthFilter(1)});
                     editText.SetBackgroundResource(Resource.Drawable.border);
                     gridLayout.AddView(editText);
+                    editText.FocusChange += CellClicked;
                 }
+            }
+        }
+
+        private void CellClicked(object sender, EventArgs e)
+        {
+            TableCell cell = (TableCell)sender;
+            if (cell.HasFocus)
+            {
+                Toast.MakeText(this, "Cell clicked: Row=" + cell.Row + " Coloumn=" + cell.Column, ToastLength.Short).Show();
             }
         }
     }

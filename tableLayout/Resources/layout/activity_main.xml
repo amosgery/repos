@@ -1,9 +1,25 @@
-<GridLayout
-    android:id="@+id/gridLayout"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:columnCount="5"
-    android:rowCount="5"
-    android:padding="5dp">
-</GridLayout>
+    android:background="@drawable/keepearth"
+    android:alpha="?android:attr/spotShadowAlpha">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="הגדרות:
+        א.
+        ב."
+        android:textSize="20sp"
+        android:id="@+id/def"/>
+    <GridLayout
+        android:id="@+id/gridLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:padding="5dp">
+    </GridLayout>
+</LinearLayout>

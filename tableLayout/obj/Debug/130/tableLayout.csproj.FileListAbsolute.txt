@@ -313,3 +313,6 @@ C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\stamp\_GenerateJavaStubs.s
 C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\res\drawable\border.xml
+C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\android\src\crc6499d3ce761110b9e2\TableCell.java
+C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\res\layout\layout1.xml
+C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\res\drawable\keepearth.jpg
