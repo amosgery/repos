@@ -21,7 +21,7 @@ namespace tableLayout
 
             gridLayout = FindViewById<GridLayout>(Resource.Id.gridLayout);
 
-            CreateGrid(15, 15);
+            CreateGrid(10, 10);
  
         }
 
@@ -54,7 +54,18 @@ namespace tableLayout
                     editText.SetBackgroundResource(Resource.Drawable.border);
                     gridLayout.AddView(editText);
                     editText.FocusChange += CellClicked;
+                    editText.TextChanged += EditText_TextChanged;
                 }
+            }
+        }
+
+        private void EditText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TableCell cell = (TableCell)sender;
+            if (cell.Length() > 0 )
+            {
+                // move focus to next cell
+
             }
         }
 

@@ -314,3 +314,4 @@ C:\Users\amos_\source\repos\images\obj\Debug\130\stamp\_ConvertResourcesCases.st
 C:\Users\amos_\source\repos\images\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\images\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\images\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\amos_\source\repos\images\obj\Debug\130\res\drawable\win1.png
