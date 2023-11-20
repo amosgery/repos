@@ -2,7 +2,7 @@
 using Android.App;
 using Android.Content;
 using Android.Media;
-
+using Android.Net;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
@@ -14,6 +14,7 @@ namespace media_player
     public class MainActivity : AppCompatActivity
     {
         MediaPlayer mp;
+        Android.Net.Uri uri;
         SeekBar sb;
         AudioManager am;
         MediaController media_controller;
@@ -40,18 +41,6 @@ namespace media_player
 
             video_view = FindViewById<VideoView>(Resource.Id.videoview);
 
-            var uri = Android.Net.Uri.Parse("http://www.ilemon.mobi/lessonZB-an10-fragmentsPart1.mp4");
-
-            video_view.SetVideoURI(uri);
-
-            media_controller = new Android.Widget.MediaController(this);
-
-            media_controller.SetMediaPlayer(video_view);
-
-            video_view.SetMediaController(media_controller);
-
-            video_view.RequestFocus();
-
             btnStartVideo.Click += StartVideo;
             btnStartMusic.Click += StartMusic;
             btnStopVideo.Click += StopVideo;
@@ -61,7 +50,7 @@ namespace media_player
         private void StopMusic(object sender, EventArgs e)
         {
             if (mp != null && mp.IsPlaying)
-                mp.Stop();
+                mp.Pause();
         }
 
         private void StopVideo(object sender, EventArgs e)
@@ -78,7 +67,13 @@ namespace media_player
 
         void StartVideo(object sender, System.EventArgs e)
         {
-            video_view.Start();
+                uri = Android.Net.Uri.Parse("https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4");
+                video_view.SetVideoURI(uri);
+                media_controller = new Android.Widget.MediaController(this);
+                media_controller.SetMediaPlayer(video_view);
+                video_view.SetMediaController(media_controller);
+                video_view.RequestFocus();
+                video_view.Start();
         }
     
 

@@ -43,14 +43,14 @@ namespace firebase_client
             lv = FindViewById<ListView>(Resource.Id.lv);
             lv.OnItemLongClickListener = this;//delete 
             btnCheck.Click += BtnCheck_Click;
-            subscribe();
             ReadDataFromFirebase();
+            subscribe();
         }
 
         private void BtnCheck_Click(object sender, EventArgs e)
         { 
             ReadDataFromFirebase();
-            //subscribe(); // re-subscribe
+            subscribe(); // re-subscribe
         }
 
     private void subscribe()
@@ -66,15 +66,34 @@ namespace firebase_client
                     if (data.Object.MyProperty == null)
                         tv.Text = "Deleted";
                     else
+                    {
+                        dbItem item = new dbItem(data.Key, data.Object.MyProperty);
+                        //AddItemToList(item);
                         tv.Text = data.Object.MyProperty;
+                    }
                 }
+
                 counter++;
                 if (counter > Count) // after initialization
                 {
                     mainHandler.Post(() =>  // This code will be executed on the main thread
                         ReadDataFromFirebase());
                 }
+
             });
+        }
+
+        private void AddItemToList(dbItem item)
+        {
+
+            if (dbList == null) {
+                dbList = new List<dbItem>();
+                adapter = new ListAdapter(this, dbList);
+            }
+            dbList.Add(item);
+            Count = dbList.Count;
+            adapter.SetCangedPos(Count-1);
+            adapter.NotifyDataSetChanged();
         }
         private async void ReadDataFromFirebase()
         {
@@ -101,7 +120,8 @@ namespace firebase_client
                 adapter = new ListAdapter(this, dbList);
                 adapter.SetCangedPos(position);
                 lv.Adapter = adapter;
-            }                
+                adapter.NotifyDataSetChanged();
+            }
             catch (Exception ex)
             {
                 // Handle any exceptions that might occur during the read operation

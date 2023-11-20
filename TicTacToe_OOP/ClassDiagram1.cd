@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TicTacToe_OOP.MainActivity">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <Members>
+      <Field Name="resetButton" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAACAAAAAAAEAAAAAAAAAACAAAAYIAIAAAAAAAAA=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+      <Field Name="gridLayout" />
+      <Field Name="resetButton" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicTacToe_OOP.TicTacToeBoard">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <Members>
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>TicTacToe_board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="buttons" />
+      <Property Name="this[System.Int32, System.Int32]" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicTacToe_OOP.TicTacToeButton">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>TicTacToe_button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToe_OOP.TicTacToeGame">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAIAAAACAAAAAAAAAAgCAIAAAgICAQAA=</HashCode>
+      <FileName>TicTacToe_game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+      <Field Name="currentPlayer" />
+      <Field Name="Winner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Android.Widget.GridLayout" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Android.Widget.GridLayout.Alignment" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Android.Widget.GridLayout.LayoutParams" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="Android.Widget.GridLayout.Spec" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Android.Widget.Button" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="TicTacToe_OOP.Player" Collapsed="true">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAQAA=</HashCode>
+      <FileName>TicTacToe_game.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
