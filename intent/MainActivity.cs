@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
+using Newtonsoft.Json;
 
 namespace intent
 {
@@ -48,13 +49,16 @@ namespace intent
             if (resultCode == Result.Ok)
             {
                 var editor = sp.Edit();
-                string username = data.GetStringExtra("username");
+                string serializedObj = data.GetStringExtra("username");
+                User user = new User(JsonConvert.DeserializeObject<User>(serializedObj));
+
+                string username = user.Name;
                 tv.Text = "Welcome " + username;
 
                 editor.PutString("username", username);
                 editor.Commit();
 
-                Toast.MakeText(this, "Login returned: " + data.GetStringExtra("username"), ToastLength.Long).Show();
+                Toast.MakeText(this, "Login returned: " + username, ToastLength.Long).Show();
 
             }
 

@@ -144,7 +144,7 @@ namespace Firebase_auth
             name = etName.Text;
             if (initFirebaseAuth(true))
             {
-                //ReadDataFromFirebase();
+                ReadDataFromFirebase();
                 subscribe();
             }
         }
@@ -181,7 +181,7 @@ namespace Firebase_auth
             pwd = etPass.Text;
             if (initFirebaseAuth(false))
             { 
-                //ReadDataFromFirebase();
+                ReadDataFromFirebase();
                 subscribe();
             }
         }
@@ -330,7 +330,8 @@ namespace Firebase_auth
             btnSignout.Enabled = false;
             btnSignin.Enabled = true;
             btnSignup.Enabled = true;
-            dbList.Clear();
+            if (dbList != null)
+                dbList.Clear();
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

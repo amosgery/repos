@@ -2,6 +2,8 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace intent
 {
@@ -26,7 +28,11 @@ namespace intent
         private void BtnSave_Click(object sender, System.EventArgs e)
         {
             Intent intent = new Intent();
-            intent.PutExtra("username", username.Text);
+            User user = new User();
+            user.Name = username.Text;
+            user.Pass = passwd.Text;
+            string serializedObj = JsonConvert.SerializeObject(user);
+            intent.PutExtra("username", serializedObj);
             SetResult(Result.Ok, intent);
             Finish();
         }

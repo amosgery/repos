@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.Core.App;
+using Java.Nio.Channels;
 using SQLite;
 using static Java.Util.Jar.Attributes;
 
@@ -101,7 +102,10 @@ namespace sqlite_firstapp
 
             allPerson[0].setPerson("Nurit" + count, "Gery" + count, 56);
             var db = new SQLiteConnection(path);
-            var user = db.Table<Person>().FirstOrDefault(u => u.fname == "Amos0");
+            string strsql1 = string.Format($"SELECT* FROM Persons WHERE fname = 'Amos0'");
+            var users = db.Query<Person>(strsql1);
+            var user = users[0];
+            //var user = db.Table<Person>().FirstOrDefault(u => u.fname == "Amos0");
             //db.Update(allPerson[0]);
             string strsql = string.Format($"Update Persons set fname ='{allPerson[0].fname}', lname ='{allPerson[0].lname}', age='{allPerson[0].age}' WHERE _id='0'");
             var persons = db.Query<Person>(strsql);
