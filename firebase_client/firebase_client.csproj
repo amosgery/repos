@@ -63,7 +63,6 @@
     <Compile Include="dbItem.cs" />
     <Compile Include="listAdapter.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="MyDatabaseRecord.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

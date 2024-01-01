@@ -42,6 +42,7 @@ namespace firebase_client
             btnCheck = FindViewById<Button>(Resource.Id.btnCheck);
             lv = FindViewById<ListView>(Resource.Id.lv);
             lv.OnItemLongClickListener = this;//delete 
+            lv.OnItemClickListener = this; // update
             btnCheck.Click += BtnCheck_Click;
             ReadDataFromFirebase();
             subscribe();
@@ -57,7 +58,7 @@ namespace firebase_client
         {
             var reference = firebaseClient.Child("records");
 
-            dispose = reference.AsObservable<MyDatabaseRecord>().Subscribe(data =>
+            dispose = reference.AsObservable<dbItem>().Subscribe(data =>
             {
                 Console.WriteLine(data.Object.MyProperty);
                 if (data.Object != null)
@@ -104,12 +105,16 @@ namespace firebase_client
                 var reference = firebaseClient.Child("records");
                 int count = 0;
                 int position=-1;
-                var res = await reference.OnceAsync<MyDatabaseRecord>();
+                var res = await reference.OnceAsync<dbItem>();
                 
                 dbList = new List<dbItem>();
                 foreach (var record in res)
                 {
                     dbItem item = new dbItem(record.Key, record.Object.MyProperty);
+                    if (record.Object.MyProperties != null)
+                        item.MyProperties = record.Object.MyProperties; 
+                    if (record.Object.Numbers != null)
+                        item.Numbers = record.Object.Numbers;
                     dbList.Add(item);
                     if (tv.Text == record.Object.MyProperty)
                         position = count;
@@ -174,7 +179,7 @@ namespace firebase_client
         {
             // delete item
             var refDB = firebaseClient.Child("records");
-            var reference = refDB.Child(dbList[position].GetKey());
+            var reference = refDB.Child(dbList[position].Key);
             await reference.DeleteAsync();
             MainActivity.dbList.RemoveAt(position);
             adapter.NotifyDataSetChanged();
@@ -184,10 +189,24 @@ namespace firebase_client
         {
             UpdateItem(position);
         }
-        public void UpdateItem(int position)
+        public async void UpdateItem(int position)
         {
-            // update item
-            Toast.MakeText(this, "Update item not yet implemented", ToastLength.Short).Show();
+            try
+            {
+                // update item
+                var refDB = firebaseClient.Child("records");
+                dbItem item = dbList[position];
+                var reference = refDB.Child(item.Key);
+                item.MyProperty = item.MyProperty + 1;
+                dbItem newItem = new dbItem(item.MyProperty, item.MyProperties, item.Numbers);
+                await reference.PutAsync(newItem);
+                adapter.NotifyDataSetChanged();
+            }
+            catch (Exception ex)
+            {
+                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Short).Show();
+
+            }
 
         }
     }

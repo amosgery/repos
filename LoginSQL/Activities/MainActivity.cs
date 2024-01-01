@@ -34,12 +34,17 @@ namespace LoginSQL
         {
             string username = usernameEditText.Text;
             string password = passwordEditText.Text;
-
-            if (databaseHelper.Add(username, password))
-                Toast.MakeText(this, "Registration Successful", ToastLength.Short).Show();
+            if (databaseHelper.IsUserValid(username, password))
+            {
+                Toast.MakeText(this, "User already exists", ToastLength.Short).Show();
+            }
             else
-                Toast.MakeText(this, "Registration Failed", ToastLength.Short).Show();
-
+            {
+                if (databaseHelper.Add(username, password))
+                    Toast.MakeText(this, "Registration Successful", ToastLength.Short).Show();
+                else
+                    Toast.MakeText(this, "Registration Failed", ToastLength.Short).Show();
+            }
         }
 
         private void LoginButton_Click(object sender, System.EventArgs e)

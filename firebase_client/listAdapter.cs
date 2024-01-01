@@ -43,7 +43,7 @@ namespace firebase_client
             if (position < values.Count)
             {
                 if (values[position] != null)
-                    tv.Text = values[position].GetValue();
+                    tv.Text = values[position].MyProperty;
                 if (position == changedPos)
                     tv.SetTextColor(Color.Red);
             }

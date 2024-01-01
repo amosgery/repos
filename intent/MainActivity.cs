@@ -41,6 +41,11 @@ namespace intent
             if (btnLogin == view)
             {
                 Intent intent = new Intent(this, typeof(LoginActivity));
+                User user = new User();
+                user.Name = tv.Text;
+                user.Pass = "1234";
+                string serializedObj = JsonConvert.SerializeObject(user);
+                intent.PutExtra("user", serializedObj);
                 StartActivityForResult(intent, 0);
             }
         }
@@ -63,5 +68,7 @@ namespace intent
             }
 
         }
+       
     }
+
 }

@@ -272,11 +272,7 @@ namespace epicisrael
             try
             {
                 dbItem item = new dbItem();
-                var response = await firebaseClient.Child("0").Child(number).PostAsync<dbItem>(new dbItem
-                {
-                    Date = item.Date,
-                    Time = item.Time
-                });
+                var response = await firebaseClient.Child("0").Child(number).PostAsync<dbItem>(item);
                 Toast.MakeText(this, "נרשם: " + et.Text, ToastLength.Short).Show();
                 SetVIcon();
                 await ScheduleMethodAsync();

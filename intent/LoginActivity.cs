@@ -23,6 +23,13 @@ namespace intent
             // Create your application here
             btnSave.Click += BtnSave_Click;
 
+            if (Intent != null)
+            {
+                string serializedObj = Intent.GetStringExtra("user");
+                User user = new User(JsonConvert.DeserializeObject<User>(serializedObj));
+                Toast.MakeText(this, "Login recieved: " + user.Name, ToastLength.Long).Show();
+
+            }
         }
 
         private void BtnSave_Click(object sender, System.EventArgs e)

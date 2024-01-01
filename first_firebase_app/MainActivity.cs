@@ -7,7 +7,7 @@ using AndroidX.AppCompat.App;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Firebase.Auth;
-
+using System.Collections.Generic;
 
 namespace first_firebase_app
 {
@@ -34,10 +34,18 @@ namespace first_firebase_app
         {
             if (et.Text != "")
             {
-                firebaseClient.Child("records").PostAsync(new MyDatabaseRecord
+                List<string> list = new List<string>();
+                int[] numbers = new int[5];
+                for (int i = 0; i < 5; i++)
                 {
-                    MyProperty = et.Text
-                });
+                    list.Add(et.Text + i);
+                    numbers[i] = i;
+                }
+                MyDatabaseRecord myData = new MyDatabaseRecord(et.Text, list, numbers);
+                //var myRef = firebaseClient.Child("records").Child("key1");
+                // Set the data at the specified location
+                //myRef.PutAsync(myData);
+                var key = firebaseClient.Child("records").PostAsync(myData);
                 Toast.MakeText(this, "Message sent: " + et.Text,  ToastLength.Short).Show();
                 et.Text = "";
 
