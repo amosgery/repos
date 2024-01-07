@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
@@ -50,7 +51,8 @@ namespace firebase_client
 
         private void BtnCheck_Click(object sender, EventArgs e)
         { 
-            ReadDataFromFirebase();
+            dbItem item = DatabaseHelper.ReadObjectFromFirebase();
+            Console.WriteLine(item);
             subscribe(); // re-subscribe
         }
 

@@ -3,7 +3,7 @@ using Android.App.AppSearch;
 
 namespace firebase_client
 {
-    internal class dbItem 
+    public class dbItem 
     {
         public string Key { get; set; }
         public string MyProperty { get; set; }
