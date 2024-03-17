@@ -34,7 +34,6 @@ namespace NewActivityResult
             SetContentView(Resource.Layout.activity_main);
 
             tvText = FindViewById<TextView>(Resource.Id.tvText);
-            ivPic = FindViewById<ImageView>(Resource.Id.ivPic);
 
             // OPTION 1: OLD fashion 
             btnIntent = FindViewById<Button>(Resource.Id.btnIntent);
