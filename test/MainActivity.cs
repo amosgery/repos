@@ -30,7 +30,7 @@ namespace test
         {
             string text = et.Text;
             tv.Text = "Hello " + text;
-            
+
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

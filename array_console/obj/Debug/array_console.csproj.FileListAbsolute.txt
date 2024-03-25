@@ -1,0 +1,8 @@
+C:\Users\amos_\source\repos\array_console\bin\Debug\array_console.exe.config
+C:\Users\amos_\source\repos\array_console\bin\Debug\array_console.exe
+C:\Users\amos_\source\repos\array_console\bin\Debug\array_console.pdb
+C:\Users\amos_\source\repos\array_console\obj\Debug\array_console.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\array_console\obj\Debug\array_console.csproj.SuggestedBindingRedirects.cache
+C:\Users\amos_\source\repos\array_console\obj\Debug\array_console.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\array_console\obj\Debug\array_console.exe
+C:\Users\amos_\source\repos\array_console\obj\Debug\array_console.pdb

@@ -1,0 +1,15 @@
+C:\Users\amos_\source\repos\while\bin\Debug\net6.0\while.exe
+C:\Users\amos_\source\repos\while\bin\Debug\net6.0\while.deps.json
+C:\Users\amos_\source\repos\while\bin\Debug\net6.0\while.runtimeconfig.json
+C:\Users\amos_\source\repos\while\bin\Debug\net6.0\while.dll
+C:\Users\amos_\source\repos\while\bin\Debug\net6.0\while.pdb
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.AssemblyInfoInputs.cache
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.AssemblyInfo.cs
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.dll
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\refint\while.dll
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.pdb
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\while.genruntimeconfig.cache
+C:\Users\amos_\source\repos\while\obj\Debug\net6.0\ref\while.dll

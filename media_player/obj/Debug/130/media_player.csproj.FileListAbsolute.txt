@@ -313,3 +313,4 @@ C:\Users\amos_\source\repos\media_player\obj\Debug\130\stamp\_ConvertResourcesCa
 C:\Users\amos_\source\repos\media_player\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\media_player\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\media_player\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\amos_\source\repos\media_player\obj\Debug\130\res\raw\sax.mp3

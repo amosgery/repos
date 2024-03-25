@@ -99,6 +99,7 @@ namespace Firebase_auth
                 }
                 adapter = new ListAdapter(this, dbList);
                 adapter.SetCangedPos(position);
+                adapter.NotifyDataSetChanged();
                 lv.Adapter = adapter;
             }
             catch (Exception ex)

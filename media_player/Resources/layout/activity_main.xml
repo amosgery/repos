@@ -10,14 +10,25 @@
         android:orientation="horizontal">
     <Button
         android:id="@+id/btnStartMusic"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="start music" />
     <Button
         android:id="@+id/btnStopMusic"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:text="stop music" />
+            <Button
+        android:id="@+id/btnStartTrack"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="start track" />
+    <Button
+        android:id="@+id/btnStopTrack"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="stop track" />
+
         </LinearLayout>
     <SeekBar
         android:layout_width="match_parent"
