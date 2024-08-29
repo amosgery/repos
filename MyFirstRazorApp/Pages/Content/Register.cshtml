@@ -1,0 +1,125 @@
+﻿@page
+@model MyFirstRazorApp.Pages.Content.RegisterModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Register</h1>
+        <div id="message" class="error" name="message">@Model.Msg</div>
+        <div id="message" class="success" name="message">@Model.SuccessMsg</div>
+
+        <form id="registerForm" class="form-horizontal" method="post">
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="NewUser.Username" class="form-control" id="username" placeholder="Enter username" required>
+                    <div id="usernameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" asp-for="NewUser.Password" class="form-control" id="password" placeholder="Enter password" required>
+                    <div id="passwordError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="NewUser.FirstName" class="form-control" id="firstName" placeholder="Enter first name" required>
+                    <div id="firstNameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="NewUser.LastName" class="form-control" id="lastName" placeholder="Enter last name" required>
+                    <div id="lastNameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="NewUser.Birthday" class="col-sm-2 col-form-label">Birthdate</label>
+                <div class="col-sm-10">
+                    <input type="date" asp-for="NewUser.Birthday" class="form-control" id="birthdate" required>
+                    <div id="birthdateError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Gender</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" asp-for="NewUser.Gender" type="radio" id="genderMale" value="male" required>
+                        <label class="form-check-label" asp-for="NewUser.Gender">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" asp-for="NewUser.Gender" type="radio" id="genderFemale" value="female" required>
+                        <label class="form-check-label" asp-for="NewUser.Gender">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" asp-for="NewUser.Gender" type="radio" id="genderOther" value="other" required>
+                        <label class="form-check-label" asp-for="NewUser.Gender">Other</label>
+                    </div>
+                </div>
+                <div id="genderError" class="error"></div>
+
+            </div>
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 col-form-label">Phone</label>
+                <div class="col-sm-10">
+                    <input type="tel" asp-for="NewUser.Phone" class="form-control" id="phone" required>
+                    <div id="phoneError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" asp-for="NewUser.Email" class="form-control" id="email" required>
+                    <div id="emailError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="occupation" class="col-sm-2 col-form-label">Occupation</label>
+                <div class="col-sm-10">
+                    <select class="form-control" asp-for="NewUser.Occupation" id="occupation">
+                        <option asp-for="NewUser.Occupation" value="">Select your occupation</option>
+                        <option asp-for="NewUser.Occupation" value="student">Student</option>
+                        <option asp-for="NewUser.Occupation" value="teacher">Teacher</option>
+                        <option asp-for="NewUser.Occupation" value="developer">Developer</option>
+                        <option asp-for="NewUser.Occupation" value="designer">Manager</option>
+                        <option asp-for="NewUser.Occupation" value="other">Other</option>
+                    </select>
+                </div>
+                <div id="occupationError" class="error"></div>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <script>
+        if (Boolean("@Model.SuccessMsg") == true) {
+            alert("alert: " + "@Model.SuccessMsg")
+            window.location.href = "/Content/Index";
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

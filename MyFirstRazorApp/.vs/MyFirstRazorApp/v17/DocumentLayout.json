@@ -1,0 +1,575 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\model\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:model\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\update.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\update.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\winners.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\winners.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\stages.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\stages.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\gallery.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\gallery.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\stages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\stages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\content\\winners.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\content\\winners.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|c:\\users\\amos_\\source\\repos\\myfirstrazorapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24934D81-A6E5-44F7-8ED4-1D9A6770142F}|MyFirstRazorApp.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Model\\Helper.cs",
+              "RelativeDocumentMoniker": "Model\\Helper.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Model\\Helper.cs",
+              "RelativeToolTip": "Model\\Helper.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwHgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:39:40.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Update.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Update.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Update.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Update.cshtml",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAiwJoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T12:44:45.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-20T17:45:35.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:43:53.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Login.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T09:38:32.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Update.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Update.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Update.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Update.cshtml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAqwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T12:50:46.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "users.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\users.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\users.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\users.cshtml",
+              "RelativeToolTip": "Pages\\Content\\users.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T15:15:13.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "users.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\users.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\users.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\users.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\users.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:23:46.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "History.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\History.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\History.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\History.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\History.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:12:45.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Winners.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Winners.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Winners.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Winners.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Winners.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:13:25.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Gallery.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Gallery.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Gallery.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Gallery.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Gallery.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:11:51.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stages.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Stages.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Stages.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Stages.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Stages.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:13:00.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T07:16:21.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T13:02:43.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T12:47:50.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:05:40.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Login.cshtml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:46:50.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T08:26:37.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T08:04:55.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T09:02:45.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T08:25:58.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\logout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\logout.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\logout.cshtml",
+              "RelativeToolTip": "Pages\\logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T18:56:33.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\logout.cshtml.cs",
+              "RelativeToolTip": "Pages\\logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T18:56:45.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Content\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Content\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T08:05:00.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\History.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\History.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\History.cshtml",
+              "RelativeToolTip": "Pages\\Content\\History.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:34:23.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Stages.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Stages.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Stages.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Stages.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Stages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:35:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Winners.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Winners.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Winners.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Winners.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Winners.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:34:51.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Gallery.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Gallery.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Content\\Gallery.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Content\\Gallery.cshtml",
+              "RelativeToolTip": "Pages\\Content\\Gallery.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T08:35:59.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T08:30:47.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T13:05:08.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstRazorApp\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T08:18:48.86Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

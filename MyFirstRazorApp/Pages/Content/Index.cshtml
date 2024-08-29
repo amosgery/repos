@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+    var sessionValue = HttpContext.Session.GetString("Login");
+}
+
+<h1>Welcome to the Tour de France</h1>
+<p>The Tour de France is an annual men's multiple stage bicycle race primarily held in France.</p>
+<img src="/img/tdf.jpg" alt="Tour de France" class="img-fluid" />

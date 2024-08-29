@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyFirstRazorApp
+build_property.RootNamespace = MyFirstRazorApp
+build_property.ProjectDir = C:\Users\amos_\source\repos\MyFirstRazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\amos_\source\repos\MyFirstRazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Stages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxTdGFnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFx1c2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Content/Winners.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVudFxXaW5uZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amos_/source/repos/MyFirstRazorApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-279kabeetf
