@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\firebase.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|c:\\users\\amos_\\source\\repos\\firebase.net\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|c:\\users\\amos_\\source\\repos\\firebase.net\\resources\\layout\\activity_main.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|solutionrelative:resources\\layout\\activity_main.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|c:\\users\\amos_\\source\\repos\\firebase.net\\mydatabaserecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30728A87-5128-42DB-BFE5-92C5FCFCCC8D}|firebase.net.csproj|solutionrelative:mydatabaserecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\firebase.net\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\firebase.net\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwCcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:13:36.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\firebase.net\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\firebase.net\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-14T16:12:15.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDatabaseRecord.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\firebase.net\\MyDatabaseRecord.cs",
+              "RelativeDocumentMoniker": "MyDatabaseRecord.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\firebase.net\\MyDatabaseRecord.cs",
+              "RelativeToolTip": "MyDatabaseRecord.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:10:05.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
