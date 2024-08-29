@@ -1,0 +1,39 @@
+﻿body {
+    background-color:lightgreen;
+}
+
+
+h1 {
+    color: red;
+    background-color: azure
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+#myId {
+    color: red;
+    background-color: deepskyblue;
+    direction: ltr;
+
+}
+.myClass {
+    color:blue;
+    background-color:orangered;
+    border:solid 2px red;
+    text-align:center;
+}
+.myClass > p {
+    color:aqua;
+}
+.myClass div:hover {
+    background-color:chartreuse;
+    color:red;
+}
+
+h1, p1, div, #myId, .myClass {
+    background-color: blueviolet;
+    text-align:center;
+}

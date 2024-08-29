@@ -1,0 +1,45 @@
+﻿
+th {
+    background-color:green;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/*Scrolling*/
+#divTable {
+    overflow-y:scroll;
+    height: 600px;
+}
+
+.tblChar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-collapse: collapse;
+    /*border-spacing: 10px;*/
+}
+table, td, th {
+    border: solid 3px;
+}
+td {
+   height: 200px;
+   text-align:center;
+   margin:30px;
+   padding: 10px;
+}
+img {
+    max-width: 200px;
+    max-height:200px
+    
+}
+
+/*tr:hover {
+    background-color: lightblue;
+}*/
+td:hover {
+    background-color: lightblue;
+}
+

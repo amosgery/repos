@@ -1,0 +1,44 @@
+﻿body {
+    text-align: center;
+    
+}
+
+table {
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    height:400px;
+}
+
+td {
+    border: solid 2px black;
+    
+}
+
+#console {
+    height: 80px;
+    text-align: left;
+    border-top: 0px;
+}
+
+#operTd {
+    height: 20px;
+    text-align: center;
+    border-bottom: 0px;
+    text-align: left;
+    font-size: 10px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+}
+
+#lbl {
+}
+
+input[type=button]:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,15 @@
+﻿
+h1 {
+    background-color: red;
+    margin-right: 50px;
+    margin-left:200px;
+    width: 300px;
+}
+
+#myH1 {
+    color: blue;
+}
+
+.bkblue {
+    background-color: lightblue;
+}

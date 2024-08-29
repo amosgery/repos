@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>כניסה</title>
+    <link href="../CSS/MainStyle.css" rel="stylesheet" />
+    <link href="../CSS/HorizonalBar.css" rel="stylesheet" />
+    <script src="../JS Code/LoginJS.js"></script>
+</head>
+<body>
+    <div>
+        <img src="../Img/game-of-thrones_Logo.jpg" class="logo" />
+    </div>
+
+    <ul>
+        <li> <a href="../GameOfThrones/MainPage.html">Main Page</a> </li>
+        <li> <a href="../GameOfThrones/DaenerysPage.html">Daenerys</a> </li>
+        <li> <a href="../GameOfThrones/JonSnow.html">Jon Snow</a> </li>
+        <li> <a href="../GameOfThrones/Arya.html">Arya</a> </li>
+        <li> <a href="../GameOfThrones/NedStark.html">Ned Stark</a> </li>
+        <li> <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Wikipedia</a></li>
+        <li> <a href="../JS Pages/login.html" class="active">Login</a></li>
+
+    </ul>
+    <br /> <br />
+
+    <form id="form1" action="../GameOfThrones/MainPage.html" onsubmit="return submitFun()">
+        <div id="divMsg"><br /> </div>
+        
+        <label for="userName">UserName:</label>
+        <input type="text" name="userName" id="userName" />
+        <br /> <br />
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" />
+        <br /> <br />
+        <input type="submit" value="send" name="submit" id="submit" />
+        <br /> <br />
+    </form>
+</body>
+</html>

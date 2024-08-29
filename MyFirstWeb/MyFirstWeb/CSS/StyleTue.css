@@ -1,0 +1,18 @@
+﻿body {
+}
+h1 {
+    background-color: aquamarine
+}
+
+#MyH1 {
+    color: red;
+}
+
+    h1:hover, #MyH1:hover {
+        color: orange;
+        background-color: blue;
+    }
+
+.purple {
+    background-color: purple;
+}

@@ -1,0 +1,41 @@
+﻿body {
+    background-color:lightblue;
+}
+.tblLogo {
+    /*border: solid 1px black;*/
+    width: 100%;
+    text-align: center;
+}
+    .tblLogo td {
+        /*border: solid 1px black;*/
+        
+    }
+.imgLogo {
+    width: 80%;
+}
+.tblMain {
+    width:100%;
+    direction:rtl;
+    text-align:right;
+    background-color:lightgrey;
+}
+
+    .tblMain td {
+        /*border: solid 1px black;*/
+        height: 50px;
+        width:33%;
+        padding:10px;
+        vertical-align:top;
+    }
+
+.imgMain {
+    width:100%;
+}
+h1 {
+    text-align:center;
+}
+
+.divMain {
+    height: 500px;
+    overflow:auto;
+}

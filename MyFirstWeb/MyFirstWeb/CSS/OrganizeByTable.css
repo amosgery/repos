@@ -1,0 +1,56 @@
+﻿body {
+    direction: rtl;
+    background-color: lightgray;
+}
+
+.tblLogo {
+    width: 100%;
+    text-align: center;
+}
+
+    .tblLogo td {
+        /*border:solid 1px black;*/
+    }
+
+.tblMain {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+    .tblMain td {
+        /*border:solid 1px black;*/
+        width: 33%;
+        vertical-align: top;
+    }
+
+.imgLogo {
+    width: 100%;
+}
+
+.imgMain {
+    width: 100%;
+}
+
+p {
+    margin-right: 10px;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.divMain {
+    height: 410px;
+    overflow: auto;
+}
+
+.footer {
+    text-align: center;
+   
+}
+
+    .footer p {
+        text-align: center;
+    }

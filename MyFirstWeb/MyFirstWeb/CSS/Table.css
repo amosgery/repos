@@ -1,0 +1,39 @@
+﻿body {
+}
+
+table, td, th {
+    border: 1px solid blue;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+th {
+    background-color:green;
+}
+
+tr:nth-child(2n) {
+    background-color:lightgray;
+}
+
+#myTable {
+    width: 60%;
+    height: 300px;
+    margin-right: auto;
+    margin-left:auto;
+   
+}
+
+tr:hover {
+    background-color:lightblue;
+}
+
+td:hover {
+    background-color: lightgreen;
+}
+td {
+    text-align: center;
+    vertical-align :bottom;
+}
+
+
+

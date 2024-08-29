@@ -1,0 +1,61 @@
+﻿
+ul {
+    list-style-type:none; /*Hide the bullets*/
+    background-color: lightblue;
+    padding: 2px;
+    border:solid 1px black;
+    margin: 2px;
+    
+    overflow:hidden;
+}
+
+li {
+    background-color:cadetblue;
+    float: left;
+    width: 11%;
+    margin: 2px;
+    padding: 3px;
+    border: red 2px solid;
+}
+
+li a {
+    background-color: antiquewhite;
+    display: block;/* make the box around the link clickable */
+    padding:10px;  /*space around the block*/
+    margin: 10px;
+    text-align:center;
+    border: purple solid 2px;
+
+}
+
+    li a:hover {
+        background-color :black;
+        color:white;
+    }
+
+.active {
+    background-color:blue;
+    /*display:none;*/
+    /*visibility:hidden;*/
+}
+ 
+.dropDownContent {
+    display: none; /* hide the sub list if not hoover*/
+    position: absolute; /*position outsize the main list*/
+    width: 11%;
+    z-index: 1; /*put the list infront any element*/
+    background-color: cadetblue;
+    margin: 2px;
+}
+
+
+.dropDown:hover .dropDownContent {
+    display: block;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

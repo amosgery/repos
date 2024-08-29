@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wM+neoIpo4c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amos_\\source\\repos\\NewAndroidApp\\NewAndroidApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

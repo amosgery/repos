@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|c:\\users\\amos_\\source\\repos\\list_view_sqlite\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\resources\\layout\\edit_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:resources\\layout\\edit_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|c:\\users\\amos_\\source\\repos\\list_view_sqlite\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\toyadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:toyadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4F881C-C755-49AD-B3E9-521F3AFB48C8}|list_view.csproj|solutionrelative:resources\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Properties\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "Properties\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-20T09:07:35.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-24T08:11:30.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2023-07-24T08:11:30.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "edit_item.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\edit_item.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\edit_item.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\edit_item.xml",
+              "RelativeToolTip": "Resources\\layout\\edit_item.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2023-07-24T08:11:30.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\EditActivity.cs",
+              "RelativeDocumentMoniker": "EditActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\EditActivity.cs",
+              "RelativeToolTip": "EditActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-24T08:11:30.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Helper.cs",
+              "RelativeDocumentMoniker": "Helper.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Helper.cs",
+              "RelativeToolTip": "Helper.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-24T08:28:38.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToyAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\ToyAdapter.cs",
+              "RelativeDocumentMoniker": "ToyAdapter.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\ToyAdapter.cs",
+              "RelativeToolTip": "ToyAdapter.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-24T08:11:30.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Toy.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Toy.cs",
+              "RelativeDocumentMoniker": "Toy.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Toy.cs",
+              "RelativeToolTip": "Toy.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-24T08:11:30.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "list_item.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\list_item.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\list_item.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\layout\\list_item.xml",
+              "RelativeToolTip": "Resources\\layout\\list_item.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2023-07-24T08:11:30.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Resource.designer.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\Resource.designer.cs",
+              "RelativeDocumentMoniker": "Resources\\Resource.designer.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\list_view_sqlite\\Resources\\Resource.designer.cs",
+              "RelativeToolTip": "Resources\\Resource.designer.cs",
+              "ViewState": "AQIAAHAPAAAAAAAAAAAMwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T05:05:53.285Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

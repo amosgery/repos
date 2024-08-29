@@ -1,0 +1,24 @@
+﻿body {
+}
+#MyH1 {
+    font-family: Arial;
+    color: blue;
+}
+
+h1 {
+    color: red;
+    background-color: aqua;
+    text-align: center
+}
+
+p {
+    color: blue;
+}
+
+.purple {
+    background-color: lightgreen;
+}
+
+#logo:hover {
+    width: 400px;
+}

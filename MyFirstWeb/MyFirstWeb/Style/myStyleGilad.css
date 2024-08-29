@@ -1,0 +1,30 @@
+﻿body {
+}
+h1 {
+    background-color: lightcoral;
+    padding-left: 50px;
+}
+
+#primary_h1 {
+    margin: 70px;
+}
+
+    #primary_h1:hover {
+        background-color: blue;
+    }
+
+.blue {
+    color: blue;
+}
+
+.backRed {
+    background-color: red;
+}
+
+img {
+    width: 300px;
+}
+
+#img_logo:hover {
+    width: 500px;
+}

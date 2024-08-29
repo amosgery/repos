@@ -1,0 +1,38 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Gilad.aspx.cs" Inherits="Pages_Gilad" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/myStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Daenerys "Storm-Born" Targaryen</h1>
+            <h2>חאליסי אם הדרקונים</h2>
+            <a href="https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%99%D7%A0%D7%A8%D7%99%D7%96_%D7%98%D7%90%D7%A8%D7%92%D7%90%D7%A8%D7%99%D7%99%D7%9F">
+                <img src="../Img/Daenerys_Targaryen_with_Dragon-Emilia_Clarke.jpg" width="150" />
+                <br />
+                wikipedia
+            </a>
+            <hr>
+            <p>דאינריז "פרי-סער" טארגאריין </p>
+            <p>
+                דאינריז טארגאריין היא אחת האחרונות משושלת טארגאריין.
+        היא נולדה לאחר מותו של אביה אאיריז, ואמה מתה בלידתה.
+        היא נאלצה לברוח מן הממלכה יחד עם אחיה וייסריז, קרוב המשפחה היחיד שנותר לה, לערים החופשיות שמעבר לים הצר, מחשש שאנשיו של "החמס", המלך רוברט בראתיאון, יחפשו אחריהם ויהרגו אותם.
+        אחיה החליט להשיאה לחאל דרוגו, מנהיג הדות'ראקים, בתמורה לצבא שינסה לכבוש חזרה את שבע הממלכות.
+        לאחר מות בעלה ומות בנה, דאינריז הקימה לתחייה שלושה דרקונים מביצים עתיקות ומאובנות עמן נכנסה אל תוך הלהבות. מאז ואילך כונתה "אם הדרקונים" ו"הבלתי נשרפת".
+            </p>
+            <br />
+            <a href="Main.html">
+                <img src="../Img/220px-Game_of_Thrones_Season_1.jpg" width="150" height="200" />
+                <br />
+                Main
+            </a>
+        </div>
+    </form>
+</body>
+</html>

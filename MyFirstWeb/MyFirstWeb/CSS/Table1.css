@@ -1,0 +1,29 @@
+﻿table, td ,th {
+    border: 1px solid blue;
+    /*border-collapse:collapse;*/
+    border-spacing:10px;
+}
+#myTable {
+    width: 50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+img {
+    width:100%;
+}
+
+#myTable td:hover {
+    background-color: lightgreen;
+    color:red;
+}
+
+#myTable tr:hover {
+    background-color:aquamarine;
+}
+
+td {
+    text-align:center;
+    vertical-align:top;
+}

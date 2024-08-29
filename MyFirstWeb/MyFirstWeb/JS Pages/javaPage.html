@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+
+        alert("start");
+        class Person {
+            constructor(first, last) {
+                this.firstName = first;         // public
+                this.lastName = last;
+                this.year = 1900;
+                this.city = "";
+                this.student = null;
+            }
+            
+            Age () {
+                return 2021 - this.year;
+            }
+        }
+
+        var student = new Person("Noa", "Levy");
+        alert(student.firstName);
+       
+
+    </script>
+</body>
+</html>

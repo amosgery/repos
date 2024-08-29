@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>הרשמה</title>
+    <script src="../JS Code/Registration.js"></script>
+    <link href="../CSS/MainStyle.css" rel="stylesheet" />
+    <link href="../CSS/HorizonalBar.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <img src="../Img/game-of-thrones_Logo.jpg" class="logo" />
+    </div>
+
+    <ul>
+        <li> <a href="../GameOfThrones/MainPage.html">Main Page</a> </li>
+        <li> <a href="../GameOfThrones/DaenerysPage.html">Daenerys</a> </li>
+        <li> <a href="../GameOfThrones/JonSnow.html">Jon Snow</a> </li>
+        <li> <a href="../GameOfThrones/Arya.html">Arya</a> </li>
+        <li> <a href="../GameOfThrones/NedStark.html">Ned Stark</a> </li>
+        <li> <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Wikipedia</a></li>
+        <li> <a href="../JS Pages/login.html" class="active">Login</a></li>
+
+    </ul>
+    <br /> <br />
+
+    <form id="form1" onsubmit="return validateForm()">
+        <table>
+            <tr>
+                <td style="width:30%">User Name</td>
+                <td style="width:30%">
+                    <input type="text" name="userName" id="userName" />
+                </td>
+                <td id="userNameMsg" class="valMsg" style="width:40%"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password" id="password" />
+                </td>
+                <td id="passwordMsg" class="valMsg"></td>
+            </tr>
+            <tr>
+                <td>confirm password</td>
+                <td>
+                    <input type="password" name="confirm" id="confirm" onchange="confirmFun()" />
+                </td>
+                <td id="confirmMsg" class="valMsg"></td>
+            </tr>
+            <tr>
+                <td>e-mail</td>
+                <td>
+                    <input type="text" name="email" id="email" onchange="confirmemail()"/>
+                </td>
+                <td id="emailMsg" class="valMsg"></td>
+            </tr>
+            <tr>
+                <td>Tell</td>
+                <td>
+                    <input type="text" name="phone" id="phone" oninput="confirmPhone()"/>
+                </td>
+                <td id="phoneMsg" class="valMsg"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>תחביבים</td>
+                <td>
+                    <select name="hobies">
+                        <option value="music">Music</option>
+                        <option value="Footbal" selected>Footbal</option>
+                        <option value="Basketball">Basketball</option>
+                        <option value="XBox">XBox</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>תאריך לידה</td>
+                <td>
+                    <input type="date" name="date" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    שאלת אימות
+                </td>
+                <td>
+                    <select name="restorePassword">
+                        <option value="school">שם בית הספר היסודי שלך</option>
+                        <option value="Dog" selected>שם הכלב הראשון שלך</option>
+                        <option value="MotherName">שם הנעורים של אמך</option>
+                        <option value="hospital">מהו שם בית החולים בו נולדת</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" name="restorePassword" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td style="text-align:center">
+                    <input type="submit" name="submit" /> &nbsp; &nbsp;&nbsp;
+                    <input type="reset" name="reset" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

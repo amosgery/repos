@@ -1,0 +1,3 @@
+NewAndroidApp.MainActivity, NewAndroidApp;crc64e3580b56665635a0.MainActivity
+NewAndroidApp.MainActivity;crc64e3580b56665635a0.MainActivity
+newandroidapp.MainActivity;crc64e3580b56665635a0.MainActivity

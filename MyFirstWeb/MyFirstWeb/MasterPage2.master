@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" ClientIDMode="Static" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>here you can add default title to all pages</title>
+
+    <link href="/CSS/MainStyle.css" rel="stylesheet" />
+    <link href="/CSS/HorizonalBar1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <img src="../Img/game-of-thrones_Logo.jpg" class="logo" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <ul>
+            <li class="active">
+                <a href="../GameOfThrones/MainPage.html">Main Page</a>
+            </li>
+            <li><a href="DaenerysPage.html">Daenerys</a> </li>
+            <li><a href="JonSnow.html">Jon Snow</a> </li>
+            <li><a href="../GameOfThrones/Arya.html">Arya</a> </li>
+            <li><a href="../GameOfThrones/NedStark.html">Ned Stark</a> </li>
+            <li class="dropDown">
+                <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Wikipedia</a>
+                <div class="dropDownContent">
+                    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones_(season_1)">season 1</a>
+                    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones_(season_2)">season 2</a>
+                    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones_(season_3)">season 3</a>
+                    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones_(season_4)">season 4</a>
+                    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones_(season_5)">season 5</a>
+                </div>
+            </li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="../GameOfThrones/CharactersTable.html">CharactersTable</a> </li>
+        </ul>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
