@@ -3,8 +3,11 @@
   <PropertyGroup>
     <SelectedDevice>myvdevice</SelectedDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <ActiveDebugProfile>MyVDevice (Android 11.0 - API 30)</ActiveDebugProfile>
+    <ActiveDebugProfile>myvdevice</ActiveDebugProfile>
     <DefaultDevice>myvdevice</DefaultDevice>
     <AndroidDesignerPreferredDevice>7.3in Foldable</AndroidDesignerPreferredDevice>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
