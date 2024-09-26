@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\XOOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-26T09:07:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XOGame.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOGame.cs",
+              "RelativeDocumentMoniker": "XOGame.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOGame.cs",
+              "RelativeToolTip": "XOGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:10:46.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "XOBoard.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOBoard.cs",
+              "RelativeDocumentMoniker": "XOBoard.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOBoard.cs",
+              "RelativeToolTip": "XOBoard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:10:25.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XOButton.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOButton.cs",
+              "RelativeDocumentMoniker": "XOButton.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOButton.cs",
+              "RelativeToolTip": "XOButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:03:35.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:02:31.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
