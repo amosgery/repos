@@ -1,5 +1,6 @@
-using Android.Views;
+﻿using Android.Views;
 using Android.Graphics;
+using Android.Content;
 namespace XOOOP
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
@@ -76,5 +77,35 @@ namespace XOOOP
             resultText.Text = "The winner is: " + game.GetWinner();
             resetButton.Visibility = Android.Views.ViewStates.Visible;
         }
+
+        public override void OnBackPressed()
+        {
+            createAlertDialog();
+        }
+
+
+        private void createAlertDialog()
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.SetTitle("התרעה");
+            builder.SetMessage(" ? לסיים את האפליקציה");
+            builder.SetCancelable(true);
+            builder.SetPositiveButton("כן", OkAction);
+            builder.SetNegativeButton("לא", CancelAction);
+            AlertDialog dialog = builder.Create();
+            dialog.Show();
+        }
+
+        private void OkAction(object sender, DialogClickEventArgs e)
+        {
+            Toast.MakeText(this, "OK clicked", ToastLength.Long).Show();
+            Finish();
+        }
+
+        private void CancelAction(object sender, DialogClickEventArgs e)
+        {
+            Toast.MakeText(this, "Cancel clicked", ToastLength.Long).Show();
+        }
+
     }
 }
