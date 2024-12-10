@@ -46,18 +46,18 @@ namespace epicisrael
             et = FindViewById<EditText>(Resource.Id.et);
             tv = FindViewById<TextView>(Resource.Id.tv);
             iv = FindViewById<ImageView>(Resource.Id.iv);
-            btnSave.Enabled = false;
-            btnCheck.Enabled = false;
-            btnSignout.Enabled = false;
-            btnSignin.Enabled = true;
-            btnSignup.Enabled = false;
+            btnSave.Visibility = ViewStates.Gone;
+            btnCheck.Visibility = ViewStates.Gone;
+            btnSignout.Visibility = ViewStates.Gone;
+            btnSignin.Visibility = ViewStates.Visible;
+            btnSignup.Visibility = ViewStates.Gone;
             btnSave.Click += btnSave_click;
             btnSignin.Click += btnSignin_click;
             btnSignup.Click += btnSignup_click;
             btnSignout.Click += btnSignout_click;
             btnCheck.Click += btnCheck_click;
-            iv.Visibility = ViewStates.Invisible;
-            et.Enabled = false;
+            iv.Visibility = ViewStates.Gone;
+            et.Visibility = ViewStates.Gone;
             et.TextChanged += EditText_TextChanged;
 
             // auto login
@@ -71,7 +71,7 @@ namespace epicisrael
 
         private void EditText_TextChanged(object sender, TextChangedEventArgs e)
         {
-            iv.Visibility = ViewStates.Invisible;
+            iv.Visibility = ViewStates.Gone;
             if (et.Text.Contains("."))
             {
                 string st = et.Text.Replace('.', '-');
@@ -442,22 +442,22 @@ namespace epicisrael
         {
             if (email == ADMIN)
             {
-                btnSave.Enabled = true;
-                btnSignup.Enabled = true;
+                btnSave.Visibility = ViewStates.Visible;
+                btnSignup.Visibility = ViewStates.Visible;
 
             }
             else
             {
-                btnSave.Enabled = false;
-                btnSignup.Enabled = false;
+                btnSave.Visibility = ViewStates.Gone;
+                btnSignup.Visibility = ViewStates.Gone;
 
             }
-            btnSignin.Enabled = false;
-            btnSignout.Enabled = true;
-            btnCheck.Enabled = true;
+            btnSignin.Visibility = ViewStates.Gone;
+            btnSignout.Visibility = ViewStates.Visible;
+            btnCheck.Visibility = ViewStates.Visible;
             tv.Text = "User: " + email;
-            et.Enabled = true;
-            iv.Visibility = ViewStates.Invisible;
+            et.Visibility = ViewStates.Visible;
+            iv.Visibility = ViewStates.Gone;
             dialog.Dismiss();
         }
 
@@ -467,13 +467,13 @@ namespace epicisrael
             this.User = null;
             this.Config.UserManager.DeleteExistingUser(uid);
             firebaseClient.Dispose();
-            btnSave.Enabled = false;
-            btnSignout.Enabled = false;
-            btnSignin.Enabled = true;
-            btnCheck.Enabled = false;
-            btnSignup.Enabled = false;
-            iv.Visibility = ViewStates.Invisible;
-            et.Enabled = false;
+            btnSave.Visibility = ViewStates.Gone;
+            btnSignout.Visibility = ViewStates.Gone;
+            btnSignin.Visibility = ViewStates.Visible;
+            btnCheck.Visibility = ViewStates.Gone;
+            btnSignup.Visibility = ViewStates.Gone;
+            iv.Visibility = ViewStates.Gone;
+            et.Visibility = ViewStates.Gone;
             et.Text = "";
             tv.Text = "";
             email = "";
