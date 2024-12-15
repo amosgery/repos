@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("firebase.net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8b46db39c06c4c6eca05d06f1fb1246f6b9c7dbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+af72d9d9de604edac0b340cfc4cd0c8273cf0c98")]
 [assembly: System.Reflection.AssemblyProductAttribute("firebase.net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("firebase.net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

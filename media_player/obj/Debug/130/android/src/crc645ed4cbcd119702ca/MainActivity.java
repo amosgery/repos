@@ -2,7 +2,7 @@ package crc645ed4cbcd119702ca;
 
 
 public class MainActivity
-	extends androidx.appcompat.app.AppCompatActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
 {
@@ -21,15 +21,6 @@ public class MainActivity
 		super ();
 		if (getClass () == MainActivity.class) {
 			mono.android.TypeManager.Activate ("media_player.MainActivity, media_player", "", this, new java.lang.Object[] {  });
-		}
-	}
-
-
-	public MainActivity (int p0)
-	{
-		super (p0);
-		if (getClass () == MainActivity.class) {
-			mono.android.TypeManager.Activate ("media_player.MainActivity, media_player", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 		}
 	}
 

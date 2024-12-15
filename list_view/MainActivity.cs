@@ -5,14 +5,13 @@ using Android.Content;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using AndroidX.AppCompat.App;
-using SQLite;
+
 
 
 namespace list_view
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity, ListView.IOnItemClickListener, ListView.IOnItemLongClickListener
+    public class MainActivity : Activity, ListView.IOnItemClickListener, ListView.IOnItemLongClickListener
 
     {
         public static List<Toy> toyList { get; set; }        //public static List<Toy> toyList { get;  set; }

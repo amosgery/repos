@@ -16,7 +16,7 @@
        <EditText
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text=""
+        android:hint="num1"
         android:inputType="numberDecimal"
         android:textSize="30sp"
         android:layout_gravity="center"
@@ -33,7 +33,7 @@
         <EditText
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text=""
+        android:hint="num2"
         android:textSize="30sp"
         android:inputType="numberDecimal"
         android:layout_gravity="center"

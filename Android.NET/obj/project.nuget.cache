@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "8YrZdEMqftP0TQXw+yXDHQ7Dr30pYfII2CLUPio/HpB/0SBDmFu/rzKTwcR7iXqpo8zx3PbF89fhVjR7/t5PDQ==",
+  "dgSpecHash": "U7uQs/FmGWI=",
   "success": true,
   "projectFilePath": "C:\\Users\\amos_\\source\\repos\\Android.NET\\Android.NET.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23401.1\\microsoft.net.illink.analyzers.7.0.100-1.23401.1.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23401.1\\microsoft.net.illink.tasks.7.0.100-1.23401.1.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.android.runtime.33.android-x86\\33.0.95\\microsoft.android.runtime.33.android-x86.33.0.95.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.android.runtime.33.android-arm64\\33.0.95\\microsoft.android.runtime.33.android-arm64.33.0.95.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.android.ref.33\\33.0.95\\microsoft.android.ref.33.33.0.95.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.android.runtime.33.android-arm\\33.0.95\\microsoft.android.runtime.33.android-arm.33.0.95.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.android.runtime.33.android-x64\\33.0.95\\microsoft.android.runtime.33.android-x64.33.0.95.nupkg.sha512"
+  ],
   "logs": []
 }

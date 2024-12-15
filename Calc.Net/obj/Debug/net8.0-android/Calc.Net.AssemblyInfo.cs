@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Calc.Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a617cd7cc5465f788aa52b9214d89b33c8f0a977")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+af72d9d9de604edac0b340cfc4cd0c8273cf0c98")]
 [assembly: System.Reflection.AssemblyProductAttribute("Calc.Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Calc.Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

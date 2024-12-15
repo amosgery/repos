@@ -41,12 +41,15 @@ namespace intent
             if (btnLogin == view)
             {
                 Intent intent = new Intent(this, typeof(LoginActivity));
+                StartActivity(intent);
+                /*
                 User user = new User();
                 user.Name = tv.Text;
                 user.Pass = "1234";
                 string serializedObj = JsonConvert.SerializeObject(user);
                 intent.PutExtra("user", serializedObj);
                 StartActivityForResult(intent, 0);
+                */
             }
         }
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)

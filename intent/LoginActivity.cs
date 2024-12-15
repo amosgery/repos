@@ -26,9 +26,11 @@ namespace intent
             if (Intent != null)
             {
                 string serializedObj = Intent.GetStringExtra("user");
-                User user = new User(JsonConvert.DeserializeObject<User>(serializedObj));
-                Toast.MakeText(this, "Login recieved: " + user.Name, ToastLength.Long).Show();
-
+                if (serializedObj != null)
+                {
+                    User user = new User(JsonConvert.DeserializeObject<User>(serializedObj));
+                    Toast.MakeText(this, "Login recieved: " + user.Name, ToastLength.Long).Show();
+                }
             }
         }
 

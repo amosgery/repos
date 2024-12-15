@@ -2,6 +2,7 @@
 using Android.Widget;
 using Android.OS;
 using System;
+using Android.Graphics;
 namespace dynamic_layout
 {
     [Activity(Label = "dynamic_layout", MainLauncher = true)]
@@ -38,6 +39,8 @@ namespace dynamic_layout
                 int imageKey = Resources.GetIdentifier("astro" + j, "drawable", PackageName);
                 iv.SetImageResource(imageKey);
                 ll.AddView(iv);
+                Bitmap bitmap = BitmapFactory.DecodeResource(Resources, imageKey);
+
             }
             hsv.AddView(ll);
             main.AddView(hsv);

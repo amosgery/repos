@@ -12,15 +12,13 @@ namespace OOP_sample
 
         //Properties:
         public string FirstName { get; set; }
-
-
         public string LastName { get; set; }
 
+        private int Id;
 
         //C'tors:
 
         public Person()
-          : this("", "")
         {
         }
 
@@ -31,6 +29,11 @@ namespace OOP_sample
         }
 
         //Methods:
+        public void SetId(int id)
+        {
+            Id = id;
+        }
+
         public string Print()
         {
             return string.Format("\nName: {0} {1}",

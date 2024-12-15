@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4QwmnlREZTs=",
+  "dgSpecHash": "g7S3iUhjGhQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\amos_\\source\\repos\\listview.net\\listview.net.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
     "C:\\Users\\amos_\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
     "C:\\Users\\amos_\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
     "C:\\Users\\amos_\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",

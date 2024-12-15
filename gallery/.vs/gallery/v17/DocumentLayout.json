@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\gallery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|c:\\users\\amos_\\source\\repos\\gallery\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|C:\\Users\\amos_\\source\\repos\\gallery\\fileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|solutionrelative:fileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|C:\\Users\\amos_\\source\\repos\\gallery\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{46AC63A2-4CFF-485B-8EEF-2C34F417ABD1}|gallery.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\gallery\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\gallery\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:57:13.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fileIO.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\gallery\\fileIO.cs",
+              "RelativeDocumentMoniker": "fileIO.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\gallery\\fileIO.cs",
+              "RelativeToolTip": "fileIO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-19T07:58:46.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\gallery\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\gallery\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAN5SURBVEhL7VVJS1tRFD55RoNTHMgTh0RBu1CfA4ggqGhWjStXTf6CENCF/QFtV13V4iar/oJYQRcuLAqpCBEVFTRBhTgRpzwV45g49jvXl2BLEylpdz1wuI977jvfud8ZLv1r0Wkr9fb2ynd3d/arq6siqLabXDIyMqi1tZVaWlpUSZLcTU1NqmaKSxygp6en9vHx0Z2Wlqbo9XptN7Hc39/T5eUl1dXVUWNjYwBg/Uaj0fsrSNzTxcUFPTw8iIhYX5Lj42MaHR2l1dVVOj09NXd2dn7C/59hcj2deJI4QDQaJVyTsrOzqbi4WNtNLDqdjnBbEdj\u002B/r5haWnpldlsts/Pz\u002Bue0yWJ0ykIaBVULS4uUjAYtJ6cnDgPDw\u002BLNHPqACwMwvSura3R2NgYjY\u002BPa5YUAJjK9vZ26urqEmqz2aikpIRCoRAdHBxop1IAyMnJoba2NuE4ppWVlaK6bm9vtVN/iaJk8h/gRXkOwI3hQsl9wCoUzeThhG1sbHCNe2L7aDAPNxk320siOnlqakpGR8pofQ8PMJRgFHMluL29TWdnZ1afz0fhcPg7QD5GIhFzX1\u002BfqbCw0MoArNwHiUTcID093Y5GcWPIubnNsQ7AsWVlZYX8fr\u002B4wdbWFrFzOBuYnp527O7uCgd8k2Qizc3NvUeb22dnZ5XS0lIFYCqcfANQGPOFAoEA5eXlEeYMYb4Ympubq3AbeWJiQth4TPD0TUSXdHR09G5vb8\u002B6vLwcRScGQM9XDK8v19fXRqymnZ0dqqiooIaGBoLzKDRwc3OjLiwsECt3LoJKDDA8PEzn5\u002BekKEoQFPTjoBsRm2EbQNQOdlBeXi7mPvaDsL8F/0P19fU0MzMj5k8ymqSamhoyGAwciRGR2NDqyubmpgFaBZpkXF8FsAujwYMZY8T3a\u002BSnlucN02YymcSgSyRSR0eHPz8/XwWX/GQ6cfgNSrMKyTXwXEFe1JGREZcsyx6uNDwuToBYsfJLRgUFBQSKxYDjfPCbwpTFRA\u002BHDtDjtFgsTk4qaHDgVrbJyUkLH2TuYxFiT3DND1J3dzchMOJ/1tfXxRkESLm5uT\u002BVrR4Pts/r9Q4BWeXHno2I0ARqHKBArq6u1o4S4TFRse8qKysrQh5EtJy/WMlmZWVRZmamisBCYgPy29QPDg7WYnEjkQqS6wdVDlSY78n6J0L0Az2xvMbOfzbCAAAAAElFTkSuQmCC",
+              "WhenOpened": "2023-07-19T08:01:16.72Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

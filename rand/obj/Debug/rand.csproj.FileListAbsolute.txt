@@ -1,0 +1,7 @@
+C:\Users\amos_\source\repos\rand\bin\Debug\rand.exe.config
+C:\Users\amos_\source\repos\rand\bin\Debug\rand.exe
+C:\Users\amos_\source\repos\rand\bin\Debug\rand.pdb
+C:\Users\amos_\source\repos\rand\obj\Debug\rand.csproj.AssemblyReference.cache
+C:\Users\amos_\source\repos\rand\obj\Debug\rand.csproj.CoreCompileInputs.cache
+C:\Users\amos_\source\repos\rand\obj\Debug\rand.exe
+C:\Users\amos_\source\repos\rand\obj\Debug\rand.pdb

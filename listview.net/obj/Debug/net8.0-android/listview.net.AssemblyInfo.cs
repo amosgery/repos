@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("listview.net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8b46db39c06c4c6eca05d06f1fb1246f6b9c7dbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8ae7125165af01c577c0188217e5812f24097142")]
 [assembly: System.Reflection.AssemblyProductAttribute("listview.net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("listview.net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

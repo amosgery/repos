@@ -1,9 +1,6 @@
 ﻿using Android.App;
-using Android.Content;
-using Android.Graphics;
 using Android.OS;
-using Android.Runtime;
-using AndroidX.AppCompat.App;
+
 
 namespace draw_canvas
 {

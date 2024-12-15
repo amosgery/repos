@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{EBDAC6DD-AC5E-483D-AE86-3BC299EC622F}|animation.net.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amos_\\AppData\\LocalLow\\WINZIP_P651b\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBDAC6DD-AC5E-483D-AE86-3BC299EC622F}|animation.net.csproj|c:\\users\\amos_\\source\\repos\\animation.net\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{EBDAC6DD-AC5E-483D-AE86-3BC299EC622F}|animation.net.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
@@ -18,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +69,23 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amos_\\AppData\\LocalLow\\WINZIP_P651b\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\LocalLow\\WINZIP_P651b\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amos_\\AppData\\LocalLow\\WINZIP_P651b\\Index.cshtml [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\LocalLow\\WINZIP_P651b\\Index.cshtml [Read Only]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T11:30:07.143Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
@@ -76,22 +95,21 @@
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\animation.net\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T07:56:02.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "activity_main.xml",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\animation.net\\Resources\\layout\\activity_main.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\animation.net\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-14T07:54:18.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:54:18.655Z"
             }
           ]
         }

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\wwwroot\\img\\Earth_from_Space.jpg",
+      "PackagePath": "staticwebassets\\img\\Earth_from_Space.jpg"
+    },
+    {
       "Id": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\XOOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xoboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:xobutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|c:\\users\\amos_\\source\\repos\\xooop\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{1E302728-411D-465A-B805-B4D45D5ADB84}|XOOOP.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,15 +69,31 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "activity_main.xml",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
-              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
-              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-26T09:07:23.432Z",
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\ClassDiagram1.cd*",
+              "RelativeToolTip": "ClassDiagram1.cd*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-28T10:25:52.384Z",
               "EditorCaption": ""
             },
             {
@@ -84,9 +104,10 @@
               "RelativeDocumentMoniker": "XOGame.cs",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOGame.cs",
               "RelativeToolTip": "XOGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:10:46.697Z"
+              "WhenOpened": "2024-09-19T19:10:46.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,33 +117,51 @@
               "RelativeDocumentMoniker": "XOBoard.cs",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOBoard.cs",
               "RelativeToolTip": "XOBoard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:10:25.937Z"
+              "WhenOpened": "2024-09-19T19:10:25.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "XOButton.cs",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOButton.cs",
               "RelativeDocumentMoniker": "XOButton.cs",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\XOButton.cs",
               "RelativeToolTip": "XOButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:03:35.487Z"
+              "WhenOpened": "2024-09-19T19:03:35.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\MainActivity.cs",
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAASAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:02:31.493Z"
+              "WhenOpened": "2024-09-19T19:02:31.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\XOOOP\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-26T09:07:23.432Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

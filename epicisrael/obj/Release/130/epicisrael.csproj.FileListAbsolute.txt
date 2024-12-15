@@ -1,10 +1,3 @@
-C:\Users\amos_\source\repos\epicisrael\bin\Release\epicisrael.dll
-C:\Users\amos_\source\repos\epicisrael\bin\Release\epicisrael.pdb
-C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael.apk
-C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael.aab
-C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.aab
-C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.apk
-C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.apk.idsig
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\MonoAndroid,Version=v13.0.AssemblyAttributes.cs
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\build.props
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\adb.props
@@ -24,6 +17,13 @@ C:\Users\amos_\source\repos\epicisrael\obj\Release\130\lp\71\jl\files.cache
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\lp\72\jl\files.cache
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\lp\73\jl\files.cache
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\lp\74\jl\files.cache
+C:\Users\amos_\source\repos\epicisrael\bin\Release\epicisrael.dll
+C:\Users\amos_\source\repos\epicisrael\bin\Release\epicisrael.pdb
+C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael.apk
+C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael.aab
+C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.aab
+C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.apk
+C:\Users\amos_\source\repos\epicisrael\bin\Release\com.companyname.epicisrael-Signed.apk.idsig
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\R.txt
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\R.cs.flag
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\epicisrael.csproj.CoreCompileInputs.cache
@@ -58,8 +58,6 @@ C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\mipmap-xxxhdpi\ic_lau
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\good.png
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\layout\signin_dialog.xml
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\layout\signup_dialog.xml
-C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.png
-C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.jpg
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\noentry.png
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\uploadflags.txt
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\resolvedassemblies.hash
@@ -181,3 +179,5 @@ C:\Users\amos_\source\repos\epicisrael\obj\Release\130\stamp\_ConvertResourcesCa
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\amos_\source\repos\epicisrael\obj\Release\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.jpg
+C:\Users\amos_\source\repos\epicisrael\obj\Release\130\res\drawable\epicisrael.png

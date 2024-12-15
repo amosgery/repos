@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yLVeVbMPvHI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amos_\\source\\repos\\imageList\\imageList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amos_\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

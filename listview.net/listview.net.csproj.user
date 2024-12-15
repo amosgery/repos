@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>myvdevice</SelectedDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <ActiveDebugProfile>myvdevice</ActiveDebugProfile>
+    <ActiveDebugProfile>MyVDevice (Android 11.0 - API 30)</ActiveDebugProfile>
     <DefaultDevice>myvdevice</DefaultDevice>
     <AndroidDesignerPreferredDevice>7.3in Foldable</AndroidDesignerPreferredDevice>
   </PropertyGroup>

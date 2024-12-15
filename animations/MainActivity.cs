@@ -1,16 +1,15 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Views.Animations;
 using Android.Widget;
-using AndroidX.AppCompat.App;
+
 
 
 namespace animations
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         Button btnFadeIn, btnFadeOut, btnTranslate, btnRotate, btnScale, btnSlideup, btnOffset;
         ImageView iv;
@@ -69,6 +68,12 @@ namespace animations
 
         private void BtnTranslate_Click(object sender, EventArgs e)
         {
+            //btnTranslate.TranslationX = -100;
+            btnTranslate.TranslationY = -50;
+            
+            animMove.Duration = 1000;
+            
+            animMove.Interpolator = new AccelerateDecelerateInterpolator();
             btnTranslate.StartAnimation(animMove);
         }
 

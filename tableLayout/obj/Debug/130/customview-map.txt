@@ -13,7 +13,6 @@ GridLayout;obj\Debug\130\res\layout\activity_main.xml
 ImageView;obj\Debug\130\res\layout\activity_main.xml
 item;obj\Debug\130\res\values\styles.xml
 LinearLayout;obj\Debug\130\res\layout\activity_main.xml
-LinearLayout;obj\Debug\130\res\layout\layout1.xml
 paths;C:\Users\amos_\source\repos\tableLayout\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_main.xml
 resources;obj\Debug\130\res\values\colors.xml

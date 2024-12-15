@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0dvhy8B4SNa8M2lV9U+1gohdS703v9YRmbcv/6k2GGk=",
+  "Hash": "V5fEwC8z87OZwqTI6FvDPMVVv+guPNvDqXDhJy6M7Ss=",
   "Source": "NewWebApp",
   "BasePath": "_content/NewWebApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\wwwroot\\img\\Earth_from_Space.jpg",
+      "SourceId": "NewWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\wwwroot\\",
+      "BasePath": "_content/NewWebApp",
+      "RelativePath": "img/Earth_from_Space.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Earth_from_Space.jpg"
     },
     {
       "Identity": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\wwwroot\\js\\site.js",

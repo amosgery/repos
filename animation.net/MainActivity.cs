@@ -36,9 +36,14 @@ namespace animation.net
 			animatorY.SetDuration(2000);
 			animatorX.SetInterpolator(new AccelerateInterpolator());
 			animatorY.SetInterpolator(new DecelerateInterpolator());
-
+			animatorX.Update += AnimatorX_Update;
 			animatorX.Start();
 			animatorY.Start();
+		}
+
+		private void AnimatorX_Update(object? sender, ValueAnimator.AnimatorUpdateEventArgs e)
+		{
+			
 		}
 	}
 }

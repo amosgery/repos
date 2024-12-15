@@ -2,7 +2,7 @@ package crc64fd9821943d92c1d8;
 
 
 public class MainActivity
-	extends androidx.appcompat.app.AppCompatActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
@@ -23,15 +23,6 @@ public class MainActivity
 		super ();
 		if (getClass () == MainActivity.class) {
 			mono.android.TypeManager.Activate ("table_layout.MainActivity, table_layout", "", this, new java.lang.Object[] {  });
-		}
-	}
-
-
-	public MainActivity (int p0)
-	{
-		super (p0);
-		if (getClass () == MainActivity.class) {
-			mono.android.TypeManager.Activate ("table_layout.MainActivity, table_layout", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 		}
 	}
 

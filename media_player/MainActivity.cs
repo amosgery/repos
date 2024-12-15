@@ -7,12 +7,11 @@ using Android.Net;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
-using AndroidX.AppCompat.App;
 
 namespace media_player
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         MediaPlayer mp;
         AudioTrack audioTrack;

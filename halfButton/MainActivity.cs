@@ -4,14 +4,13 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using AndroidX.AppCompat.App;
-using Java.Lang;
+
 using static Android.Views.View;
 
 namespace halfButton
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity, IOnClickListener
+    public class MainActivity : Activity, IOnClickListener
     {
         public void OnClick(View v)
         {
@@ -21,7 +20,6 @@ namespace halfButton
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             GradientDrawable gradientDrawable = new GradientDrawable(GradientDrawable.Orientation.LeftRight,

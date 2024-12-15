@@ -1,17 +1,16 @@
 ﻿using System;
-using System.ComponentModel;
 using Android.App;
 using Android.OS;
-using Android.Runtime;
+
 using Android.Text;
 using Android.Views;
 using Android.Widget;
-using AndroidX.AppCompat.App;
+
 
 namespace tableLayout
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         GridLayout gridLayout;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -21,7 +20,7 @@ namespace tableLayout
 
             gridLayout = FindViewById<GridLayout>(Resource.Id.gridLayout);
 
-            CreateGrid(10, 10);
+            CreateGrid(10, 3);
  
         }
 

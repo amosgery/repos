@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\pages\\gilad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\pages\\gilad.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\helloworld.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\helloworld.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\masterpage.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\webpages\\test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\webpages\\test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\webpages\\test.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\webpages\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\webpages\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\webpages\\test.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -27,51 +35,51 @@
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\boxmodel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\boxmodel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\boxmodel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\css\\mainextenal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\css\\mainextenal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\css\\mainextenal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\mainexternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\mainexternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\mainexternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\main - clean.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\main - clean.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\main - clean.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\gameofthrone.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\gameofthrone.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\gameofthrone.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\maininternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\maininternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\maininternal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\formating.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\formating.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\formating.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\externalstyle.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\externalstyle.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\externalstyle.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\css\\externalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\css\\externalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\css\\externalstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\html\\helloworld.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\html\\helloworld.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\html\\helloworld.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|c:\\users\\amos_\\source\\repos\\myfirstweb\\myfirstweb\\gameofthrones\\mainpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\myfirstweb\\gameofthrones\\mainpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31710F17-5A00-4B48-9A22-8AA276407EBD}|C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb|solutionrelative:myfirstweb\\gameofthrones\\mainpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -106,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -115,14 +123,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
             },
             {
               "$type": "Bookmark",
@@ -141,6 +141,107 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gilad.aspx",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\Pages\\Gilad.aspx",
+              "RelativeDocumentMoniker": "MyFirstWeb\\Pages\\Gilad.aspx",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\Pages\\Gilad.aspx",
+              "RelativeToolTip": "MyFirstWeb\\Pages\\Gilad.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-07T08:40:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterPage.master.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\MasterPage.master.cs",
+              "RelativeDocumentMoniker": "MyFirstWeb\\MasterPage.master.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\MasterPage.master.cs",
+              "RelativeToolTip": "MyFirstWeb\\MasterPage.master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T07:36:34.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainExtenal.css",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\MainExtenal.css",
+              "RelativeDocumentMoniker": "MyFirstWeb\\CSS\\MainExtenal.css",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\MainExtenal.css",
+              "RelativeToolTip": "MyFirstWeb\\CSS\\MainExtenal.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-16T07:38:01.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Main - CLean.html",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Main - CLean.html",
+              "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\Main - CLean.html",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Main - CLean.html",
+              "RelativeToolTip": "MyFirstWeb\\HTML\\Main - CLean.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-16T07:31:58.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameOfThrone.html",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\GameOfThrone.html",
+              "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\GameOfThrone.html",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\GameOfThrone.html",
+              "RelativeToolTip": "MyFirstWeb\\HTML\\GameOfThrone.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-16T07:31:48.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelloWorld.html",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HelloWorld.html",
+              "RelativeDocumentMoniker": "MyFirstWeb\\HelloWorld.html",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HelloWorld.html",
+              "RelativeToolTip": "MyFirstWeb\\HelloWorld.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-24T10:33:14.943Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MasterPage.master",
@@ -150,51 +251,11 @@
               "RelativeToolTip": "MyFirstWeb\\MasterPage.master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-26T12:52:20.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:52:20.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainExtenal.css",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\MainExtenal.css",
-              "RelativeDocumentMoniker": "MyFirstWeb\\CSS\\MainExtenal.css",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\MainExtenal.css",
-              "RelativeToolTip": "MyFirstWeb\\CSS\\MainExtenal.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-16T07:38:01.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Main - CLean.html",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Main - CLean.html",
-              "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\Main - CLean.html",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Main - CLean.html",
-              "RelativeToolTip": "MyFirstWeb\\HTML\\Main - CLean.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:31:58.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameOfThrone.html",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\GameOfThrone.html",
-              "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\GameOfThrone.html",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\GameOfThrone.html",
-              "RelativeToolTip": "MyFirstWeb\\HTML\\GameOfThrone.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:31:48.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BoxModel.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\BoxModel.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\BoxModel.html",
@@ -202,25 +263,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\BoxModel.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:19:22.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:19:22.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HelloWorld.html",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HelloWorld.html",
-              "RelativeDocumentMoniker": "MyFirstWeb\\HelloWorld.html",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HelloWorld.html",
-              "RelativeToolTip": "MyFirstWeb\\HelloWorld.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T10:33:14.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Test.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\WebPages\\Test.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\WebPages\\Test.html",
@@ -228,12 +275,11 @@
               "RelativeToolTip": "MyFirstWeb\\WebPages\\Test.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-23T06:46:09.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T06:46:09.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Test.js",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\WebPages\\Test.js",
               "RelativeDocumentMoniker": "MyFirstWeb\\WebPages\\Test.js",
@@ -241,12 +287,11 @@
               "RelativeToolTip": "MyFirstWeb\\WebPages\\Test.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-23T06:47:22.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T06:47:22.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MainExternal.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\MainExternal.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\MainExternal.html",
@@ -254,12 +299,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\MainExternal.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:32:20.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:32:20.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Main.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Main.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\Main.html",
@@ -267,12 +311,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\Main.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T13:38:38.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T13:38:38.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Test1.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Test1.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\Test1.html",
@@ -280,12 +323,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\Test1.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:00:35.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:00:35.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainInternal.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\MainInternal.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\MainInternal.html",
@@ -293,12 +335,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\MainInternal.html",
               "ViewState": "AQIAACQAAAAAAAAAAAAEwDAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:38:14.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:38:14.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "myStyle.css",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\myStyle.css",
               "RelativeDocumentMoniker": "MyFirstWeb\\CSS\\myStyle.css",
@@ -306,12 +347,11 @@
               "RelativeToolTip": "MyFirstWeb\\CSS\\myStyle.css",
               "ViewState": "AQIAABQAAAAAAAAAAAAAABQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-16T07:38:28.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:38:28.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ExternalStyle.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\ExternalStyle.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\ExternalStyle.html",
@@ -319,12 +359,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\ExternalStyle.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:20:24.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:20:24.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Formating.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\Formating.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\Formating.html",
@@ -332,12 +371,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\Formating.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:20:05.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:20:05.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "HelloWorld.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\HelloWorld.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\HelloWorld.html",
@@ -345,12 +383,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\HelloWorld.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-07-16T07:19:47.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:19:47.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ExternalStyle.css",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\CSS\\ExternalStyle.css",
               "RelativeDocumentMoniker": "MyFirstWeb\\CSS\\ExternalStyle.css",
@@ -358,12 +395,11 @@
               "RelativeToolTip": "MyFirstWeb\\CSS\\ExternalStyle.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-16T07:31:10.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T07:31:10.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "MainPage.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\GameOfThrones\\MainPage.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\GameOfThrones\\MainPage.html",
@@ -371,12 +407,11 @@
               "RelativeToolTip": "MyFirstWeb\\GameOfThrones\\MainPage.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:01:54.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:01:54.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Table1.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\GameOfThrones\\Table1.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\GameOfThrones\\Table1.html",
@@ -384,12 +419,11 @@
               "RelativeToolTip": "MyFirstWeb\\GameOfThrones\\Table1.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:01:46.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:01:46.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Table.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\GameOfThrones\\Table.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\GameOfThrones\\Table.html",
@@ -397,12 +431,11 @@
               "RelativeToolTip": "MyFirstWeb\\GameOfThrones\\Table.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:01:22.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:01:22.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "OrganizeWed.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\OrganizeWed.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\OrganizeWed.html",
@@ -410,12 +443,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\OrganizeWed.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:01:11.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:01:11.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "OrganizeTue.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\HTML\\OrganizeTue.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\HTML\\OrganizeTue.html",
@@ -423,12 +455,11 @@
               "RelativeToolTip": "MyFirstWeb\\HTML\\OrganizeTue.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-27T16:01:03.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T16:01:03.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Test.html",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\Test.html",
               "RelativeDocumentMoniker": "MyFirstWeb\\Test.html",
@@ -436,12 +467,11 @@
               "RelativeToolTip": "MyFirstWeb\\Test.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-24T10:34:54.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T10:34:54.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Hadar.aspx",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\MyFirstWeb\\MyFirstWeb\\Hadar.aspx",
               "RelativeDocumentMoniker": "MyFirstWeb\\Hadar.aspx",
@@ -449,8 +479,7 @@
               "RelativeToolTip": "MyFirstWeb\\Hadar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-24T10:32:57.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T10:32:57.837Z"
             }
           ]
         }
