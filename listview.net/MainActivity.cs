@@ -24,9 +24,8 @@ namespace listview.net
                 RequestPermissions(new String[] { Manifest.Permission.WriteExternalStorage }, 100);
             }
 
-            var db = new SQLiteConnection(Helper.Path());
-            //db.DropTable<Toy>();
-            db.CreateTable<Toy>();
+
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             //phase 4 reference to listview
@@ -38,7 +37,7 @@ namespace listview.net
             lv.OnItemClickListener = this;     //update
 
             lv.OnItemLongClickListener = this;//delete 
-            toyList = getAllToys();
+            toyList = Helper.getAllToys();
             toyAdapter = new ToyAdapter(this, toyList);
             lv.Adapter = toyAdapter;
         }
@@ -70,8 +69,6 @@ namespace listview.net
 
         bool AdapterView.IOnItemLongClickListener.OnItemLongClick(AdapterView parent, View view, int position, long id)
         {
-            var db = new SQLiteConnection(Helper.Path());
-
             // add OK/Cancel button
             Android.App.AlertDialog.Builder builder = new Android.App.AlertDialog.Builder(this);
             if (position < 0)
@@ -81,7 +78,8 @@ namespace listview.net
             builder.SetPositiveButton("OK", (sender, e) =>
             {
                 // delete item
-                db.Delete(toyList[position]);
+                Helper.DeleteItem(toyList[position]);
+
                 MainActivity.toyList.RemoveAt(position);
                 toyAdapter.NotifyDataSetChanged();
             });
@@ -92,26 +90,6 @@ namespace listview.net
             builder.Create().Show();
             return true;
         }
-        public List<Toy> getAllToys()
-        {
-            var db = new SQLiteConnection(Helper.Path());
-            //var hlpDB = new SQLiteOpenHelper(this, Helper.Path(), null, 1);
-            //var list = new List<Toy>();
 
-
-            string strsql = string.Format("SELECT * FROM Toys");
-            var toys = db.Query<Toy>(strsql);
-            toyList = new List<Toy>();
-            if (toys.Count > 0)
-            {
-                foreach (var item in toys)
-                {
-                    toyList.Add(item);
-
-                }
-            }
-            db.Close();
-            return toyList;
-        }
     }
 }

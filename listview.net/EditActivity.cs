@@ -61,8 +61,7 @@ public class EditActivity : Activity
     }
     private void BtnSave_Click(object sender, EventArgs e)
     {
-        var db = new SQLiteConnection(Helper.Path());
-        db.CreateTable<Toy>();
+
         int price = int.Parse(etPrice.Text);
         string title = etTitle.Text;
         string subtitle = etSubtitle.Text;
@@ -73,17 +72,17 @@ public class EditActivity : Activity
             t = MainActivity.toyList[pos];
             MainActivity.toyList[pos].setToy(t.Id, price, title, subtitle, bitmap);
             //MainActivity.toyList[pos] = t;
-            db.Update(t);
+            Helper.Update(t);
             Finish();
         }
         else // create new toy
         {
             t = new Toy(price, title, subtitle, bitmap);
             MainActivity.toyList.Add(t);
-            db.Insert(t);
+            Helper.Insert(t);
             Finish();
         }
-        db.Close();
+
     }
 
 }

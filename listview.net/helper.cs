@@ -1,19 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Android.Graphics;
 using Android.Util;
+using SQLite;
 
 namespace listview.net
 {
-    public class Helper
+    public static class Helper
     {
+        static SQLiteConnection db;
         public static string dbname = "dbTest1.db3";
-        public Helper()
+        static Helper()
         {
-
+            db = new SQLiteConnection(Helper.Path());
+            //db.DropTable<Toy>();
+            db.CreateTable<Toy>();
         }
         public static string Path()
         {
@@ -45,6 +50,37 @@ namespace listview.net
         {
             byte[] imageAsBytes = Base64.Decode(base64String, Base64Flags.Default);
             return BitmapFactory.DecodeByteArray(imageAsBytes, 0, imageAsBytes.Length);
+        }
+
+        internal static void DeleteItem(Toy toy)
+        {
+            db.Delete(toy);
+        }
+        public static List<Toy> getAllToys()
+        {
+            string strsql = string.Format("SELECT * FROM Toys");
+            var toys = db.Query<Toy>(strsql);
+            List<Toy> toyList = new List<Toy>();
+            if (toys.Count > 0)
+            {
+                foreach (var item in toys)
+                {
+                    toyList.Add(item);
+
+                }
+            }
+            //db.Close();
+            return toyList;
+        }
+
+        internal static void Update(Toy t)
+        {
+            db.Update(t);
+        }
+
+        internal static void Insert(Toy t)
+        {
+            db.Insert(t);
         }
     }
 }

@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\amos_\\source\\repos\\listview.net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\toyadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:toyadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\toyadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:toyadaptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:editactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\resources\\layout\\edit_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:resources\\layout\\edit_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:toy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|solutionrelative:resources\\layout\\list_item.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D80B7F9-48E8-47F1-B443-CA80DE8E7AE2}|listview.net.csproj|c:\\users\\amos_\\source\\repos\\listview.net\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -102,7 +102,96 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\EditActivity.cs",
+              "RelativeDocumentMoniker": "EditActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\EditActivity.cs",
+              "RelativeToolTip": "EditActivity.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:58:45.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "edit_item.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\edit_item.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\edit_item.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\edit_item.xml",
+              "RelativeToolTip": "Resources\\layout\\edit_item.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-20T08:25:35.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:20:37.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToyAdaptor.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\ToyAdaptor.cs",
+              "RelativeDocumentMoniker": "ToyAdaptor.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\ToyAdaptor.cs",
+              "RelativeToolTip": "ToyAdaptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:20:02.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Toy.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Toy.cs",
+              "RelativeDocumentMoniker": "Toy.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Toy.cs",
+              "RelativeToolTip": "Toy.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:18:54.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "list_item.xml",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\list_item.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\list_item.xml",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\list_item.xml",
+              "RelativeToolTip": "Resources\\layout\\list_item.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-20T08:27:27.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "helper.cs",
+              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\helper.cs",
+              "RelativeDocumentMoniker": "helper.cs",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\helper.cs",
+              "RelativeToolTip": "helper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:17:46.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "ClassDiagram1.cd",
@@ -114,100 +203,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditActivity.cs",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\EditActivity.cs",
-              "RelativeDocumentMoniker": "EditActivity.cs",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\EditActivity.cs",
-              "RelativeToolTip": "EditActivity.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T14:58:45.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "edit_item.xml",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\edit_item.xml",
-              "RelativeDocumentMoniker": "Resources\\layout\\edit_item.xml",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\edit_item.xml",
-              "RelativeToolTip": "Resources\\layout\\edit_item.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-20T08:25:35.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\MainActivity.cs",
-              "RelativeDocumentMoniker": "MainActivity.cs",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\MainActivity.cs",
-              "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAA5wBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:20:37.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ToyAdaptor.cs",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\ToyAdaptor.cs",
-              "RelativeDocumentMoniker": "ToyAdaptor.cs",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\ToyAdaptor.cs",
-              "RelativeToolTip": "ToyAdaptor.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:20:02.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Toy.cs",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Toy.cs",
-              "RelativeDocumentMoniker": "Toy.cs",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Toy.cs",
-              "RelativeToolTip": "Toy.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwEgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:18:54.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "list_item.xml",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\list_item.xml",
-              "RelativeDocumentMoniker": "Resources\\layout\\list_item.xml",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\list_item.xml",
-              "RelativeToolTip": "Resources\\layout\\list_item.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-20T08:27:27.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "activity_main.xml",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\activity_main.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-20T08:27:46.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "helper.cs",
-              "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\listview.net\\helper.cs",
-              "RelativeDocumentMoniker": "helper.cs",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\listview.net\\helper.cs",
-              "RelativeToolTip": "helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:17:46.885Z",
+              "WhenOpened": "2024-06-20T08:27:46.918Z",
               "EditorCaption": ""
             },
             {
@@ -220,11 +223,8 @@
               "RelativeToolTip": "AndroidManifest.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-22T16:05:49.808Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-06-22T16:05:49.808Z",
+              "EditorCaption": ""
             }
           ]
         }
