@@ -2,3 +2,22 @@
 @model NewWebApp.Pages.loginModel
 @{
 }
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+<input type="button" value="Submit" id="button" onclick="OnClickButton()" />
+
+<script>
+function OnClickButton() {
+var fname = null;
+var lname = null;
+fname = document.getElementById("fname").value;
+lname = document.getElementById("lname").value;
+if (fname == "" || lname == "") {
+     alert("חובה למלא שם פרטי ומשפחה");
+    return;
+}
+document.write("<h1 style='text-align:center'> Welcome " + fname + " " + lname + "</h1>");
+}
+</script>

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|c:\\users\\amos_\\source\\repos\\newwebapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|c:\\users\\amos_\\source\\repos\\newwebapp\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|solutionrelative:pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|c:\\users\\amos_\\source\\repos\\newwebapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|c:\\users\\amos_\\source\\repos\\newwebapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A2910A3-FE3B-4F33-9651-84F31249D085}|NewWebApp.csproj|c:\\users\\amos_\\source\\repos\\newwebapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,12 +97,8 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Error.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\Error.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Error.cshtml.cs",
@@ -110,12 +106,11 @@
               "RelativeToolTip": "Pages\\Error.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T19:17:11.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T19:17:11.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "Pages\\Error.cshtml",
@@ -131,9 +126,9 @@
               "Title": "login.cshtml",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\login.cshtml",
               "RelativeDocumentMoniker": "Pages\\login.cshtml",
-              "ToolTip": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\login.cshtml*",
-              "RelativeToolTip": "Pages\\login.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\login.cshtml",
+              "RelativeToolTip": "Pages\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T18:37:44.058Z",
               "EditorCaption": ""
@@ -151,15 +146,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\amos_\\source\\repos\\NewWebApp\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T16:23:47.506Z"
+              "WhenOpened": "2024-10-13T16:23:47.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
