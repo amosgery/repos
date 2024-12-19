@@ -37,6 +37,7 @@ namespace listview.net
             lv.OnItemClickListener = this;     //update
 
             lv.OnItemLongClickListener = this;//delete 
+            Helper.CreateTable<Toy>();
             toyList = Helper.getAllToys();
             toyAdapter = new ToyAdapter(this, toyList);
             lv.Adapter = toyAdapter;

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Android.Graphics;
 using Android.Util;
 using SQLite;
@@ -12,19 +7,21 @@ namespace listview.net
 {
     public static class Helper
     {
-        static SQLiteConnection db;
-        public static string dbname = "dbTest1.db3";
+        private static SQLiteConnection db;
+        const string dbname = "dbTest1.db3";
         static Helper()
         {
             db = new SQLiteConnection(Helper.Path());
             //db.DropTable<Toy>();
-            db.CreateTable<Toy>();
         }
-        public static string Path()
+
+        public static void CreateTable<T>()
         {
-            // Private Storage:
-            //string path = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), Helper.dbname);
-            // Public storage:
+            db.CreateTable<T>();
+        }
+
+        private static string Path()
+        {
             string documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             if (!Directory.Exists(documentsPath))
                 Directory.CreateDirectory(documentsPath);
