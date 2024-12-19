@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Android.Views;
 
 namespace listview.net
@@ -49,9 +45,9 @@ namespace listview.net
             if (temp != null)
             {
                 ivProduct.SetImageBitmap(temp.getBitmap());
-                tvPrice.Text = "" + temp.getPrice();
-                tvTitle.Text = temp.getTitle();
-                tvSubTitle.Text = temp.getSubTitle();
+                tvPrice.Text = "" + temp.Price;
+                tvTitle.Text = temp.Title;
+                tvSubTitle.Text = temp.Subtitle;
             }
             return view;
         }

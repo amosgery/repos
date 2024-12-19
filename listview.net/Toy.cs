@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using Android.Graphics;
 using SQLite;
 
@@ -26,31 +22,6 @@ namespace listview.net
         }
         public Toy()
         {
-        }
-        public int getPrice()
-        {
-            return Price;
-        }
-        public void setPrice(int price)
-        {
-            this.Price = price;
-        }
-        public String getTitle()
-        {
-            return Title;
-        }
-        public void setTitle(String title)
-        {
-            this.Title = title;
-        }
-        public String getSubTitle()
-        {
-            return Subtitle;
-        }
-
-        public void setSubTitle(String subTitle)
-        {
-            this.Subtitle = subTitle;
         }
 
         public Android.Graphics.Bitmap getBitmap()

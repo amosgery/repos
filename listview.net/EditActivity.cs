@@ -1,6 +1,5 @@
 using Android.Content;
 using Android.Graphics;
-using SQLite;
 
 namespace listview.net;
 
@@ -30,9 +29,9 @@ public class EditActivity : Activity
         {
             Toy temp = MainActivity.toyList[pos];
             Toast.MakeText(this, "position is  " + pos, ToastLength.Long).Show();
-            etTitle.Text = temp.getTitle();
-            etSubtitle.Text = temp.getSubTitle();
-            etPrice.Text = "" + temp.getPrice();
+            etTitle.Text = temp.Title;
+            etSubtitle.Text = temp.Subtitle;
+            etPrice.Text = "" + temp.Price;
             bitmap = temp.getBitmap();
             iv.SetImageBitmap(temp.getBitmap());
         }
