@@ -24,3 +24,6 @@ img {
 img:hover {
         opacity: 1.0;
     }
+.error {
+    color: red;
+}
