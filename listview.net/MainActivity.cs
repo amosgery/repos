@@ -1,10 +1,8 @@
 using Android;
 using Android.Content;
 using Android.Content.PM;
-using Android.Database.Sqlite;
-using Android.Util;
 using Android.Views;
-using SQLite;
+
 
 namespace listview.net
 {
