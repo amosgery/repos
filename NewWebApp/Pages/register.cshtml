@@ -14,7 +14,7 @@
     <label for="lname">Last name:</label><br>
     <input type="text" id="lname" name="lname" required><br><br>
     <label for="lname">Date of birth:</label><br>
-    <input type="date" id="dbirth" name="dbirth" required><br><br>
+    <input type="date" id="dbirth" name="dbirth" onchange="OnDateChange()" required><br><br>
     <input type="submit" value="Submit" id="button" />
 </form>
 
@@ -35,5 +35,17 @@ function OnUsernameChange() {
             alert("Password must be at least 6 characters long");
             return;
         }
+    }
+
+    function OnDateChange() {
+        const date = document.getElementById("dbirth").value;
+        const bDate = new Date(date);
+        const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+
+        if (currentYear < bDate.getFullYear() + 5)
+            alert("You have to be at least 5 to enter");
+
+
     }
 </script>

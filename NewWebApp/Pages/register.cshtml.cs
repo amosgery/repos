@@ -12,7 +12,7 @@ namespace NewWebApp.Pages
 
         public IActionResult OnPost(string Username, string Password)
         {
-            if (Username == "Amos")
+            if (Username == "Amos" && Password == "1234")
             {
                 Msg = "User " + Username + " registered successfuly";
             }
