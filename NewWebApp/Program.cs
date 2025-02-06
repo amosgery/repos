@@ -1,9 +1,21 @@
 var builder = WebApplication.CreateBuilder(args);
 
+var data_directory = Path.Combine(builder.Environment.ContentRootPath, "App_data");
+AppDomain.CurrentDomain.SetData("DataDirectory", data_directory);
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(10);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 var app = builder.Build();
+
+app.UseSession();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

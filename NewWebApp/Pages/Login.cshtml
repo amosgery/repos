@@ -1,0 +1,14 @@
+﻿@page
+@model NewWebApp.Pages.LoginModel
+@{
+}
+<div id="message" class="error" name="message">@Model.Msg</div>
+<br />
+<br />
+<form id="RegForm" method="post">
+    <label for="Username">User name:</label><br>
+    <input type="text" id="username" name="Username"  required><br>
+    <label for="Password">Password:</label><br>
+    <input type="password" id="password" name="Password" required><br>
+    <input type="submit" value="Submit" id="button" />
+</form>

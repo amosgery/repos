@@ -2,10 +2,14 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var sessionValue = HttpContext.Session.GetString("Login");
+    if (sessionValue == null)
+        sessionValue = "Guest";
+
 }
 
 <div class="text-center">
-    <h1 id="name" class="display-4">Welcome</h1>
+    <h1 id="name" class="display-4">Welcome @sessionValue</h1>
     <p id="demo">This is my first page</p>
     <a href="/NewPage">
     <img src="~/img/earth_from_space.jpg" width="200" />

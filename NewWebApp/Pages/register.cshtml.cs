@@ -1,27 +1,31 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using NewWebApp.Model;
 
 namespace NewWebApp.Pages
 {
     public class registerModel : PageModel
     {
         public string Msg { get; set; } = "";
+        public User NewUser { get; set; }
         public void OnGet()
         {
+            Msg = "";
         }
-
-        public IActionResult OnPost(string Username, string Password)
+        public void OnPost(User NewUser)
         {
-            if (Username == "Amos" && Password == "1234")
+            Helper helper = new Helper();
+            int n = helper.Insert(NewUser, "Users");
+            if (n == -1)
             {
-                Msg = "User " + Username + " registered successfuly";
+                Msg = "Username already taken.";
+                //return Page();
             }
             else
             {
-                Msg = "Wrong username or password.";
+                Msg = "User " + NewUser.Username + " registered successfully";
             }
-            return Page();
-            
+            //return Page();
         }
     }
 }
