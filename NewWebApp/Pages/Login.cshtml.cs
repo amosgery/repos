@@ -14,14 +14,13 @@ namespace NewWebApp.Pages
 
         public IActionResult OnPost(User NewUser)
         {
-            string SQLStr = $"SELECT * FROM Users WHERE Username LIKE '{NewUser.Username}' AND Password LIKE '{NewUser.Password}'";
             Helper helper = new Helper();
-            DataTable dt = helper.RetrieveTable(SQLStr, "Users");
+            bool userExist = helper.UserExist(NewUser, "Users");
 
-            if (dt.Rows.Count > 0)
+            if (userExist)
             {
                 HttpContext.Session.SetString("Login", NewUser.Username);
-                //HttpContext.Session.SetString("Admin", dt.Rows[0]["Admin"].ToString());
+                HttpContext.Session.SetString("Admin", NewUser.Admin.ToString());
                 return RedirectToPage("/Index");
             }
             Msg = "Wrong username or password.";

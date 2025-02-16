@@ -1,25 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
 using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using AndroidX.AppCompat.App;
-using AndroidX.RecyclerView.Widget;
+
 using Firebase.Database;
 using Firebase.Database.Query;
-using Java.Lang.Ref;
-using static Android.Icu.Text.Transliterator;
-using static Android.Views.View;
+
 
 namespace firebase_client
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity, ListView.IOnItemLongClickListener, ListView.IOnItemClickListener
+    public class MainActivity : Activity, ListView.IOnItemLongClickListener, ListView.IOnItemClickListener
     {
         FirebaseClient firebaseClient = new Firebase.Database.FirebaseClient("https://xamarinfirstapp-2ae7d-default-rtdb.europe-west1.firebasedatabase.app/");
         TextView tv;

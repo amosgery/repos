@@ -40,6 +40,16 @@ namespace NewWebApp.Model
             return ds.Tables[table];
         }
 
+        public bool UserExist(User user, string table)
+        {
+            string SQLStr = $"SELECT * FROM [{table}] WHERE Username LIKE '{user.Username}' AND Password LIKE '{user.Password}'";
+            DataTable dt = RetrieveTable(SQLStr, "Users");
+
+            if (dt.Rows.Count > 0)
+                return true;
+            else
+                return false;
+        }
         public int Insert(User user, string table)
         // The Method recieve a user objects and insert it to the Database as new row. 
         // if the user is already taken the method will return -1.
