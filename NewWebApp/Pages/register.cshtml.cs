@@ -19,13 +19,11 @@ namespace NewWebApp.Pages
             if (n == -1)
             {
                 Msg = "Username already taken.";
-                //return Page();
             }
             else
             {
                 Msg = "User " + NewUser.Username + " registered successfully";
             }
-            //return Page();
         }
     }
 }

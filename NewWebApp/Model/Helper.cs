@@ -43,7 +43,7 @@ namespace NewWebApp.Model
         public bool UserExist(User user, string table)
         {
             string SQLStr = $"SELECT * FROM [{table}] WHERE Username LIKE '{user.Username}' AND Password LIKE '{user.Password}'";
-            DataTable dt = RetrieveTable(SQLStr, "Users");
+            DataTable dt = RetrieveTable(SQLStr, table);
 
             if (dt.Rows.Count > 0)
                 return true;
