@@ -2,6 +2,7 @@
 
 @{
     var user = "Guest";
+    var admin = Context.Session.GetString("Admin");
     var username = Context.Session.GetString("Login");
     if (!string.IsNullOrEmpty(username))
         user = username;
@@ -29,12 +30,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/register">Register</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
-                        </li>
+
                         @if (username != null)
                         {
                             <li class="nav-item">
@@ -47,6 +43,23 @@
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Logout">Logout</a>
                             </li>
                         }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/register">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
+                            </li>
+                        }
+                        @if (!string.IsNullOrEmpty(admin))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/users">Users</a>
+                            </li>
+                            
+                        }
+
                     </ul>
                 </div>
             </div>

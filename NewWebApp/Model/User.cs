@@ -9,6 +9,6 @@
         public string Lastname { get; set; } = string.Empty;
 
         public string Birthdate { get; set; }
-        public bool Admin { get; set; }
+        public string Admin { get; set; }
     }
 }

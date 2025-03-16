@@ -40,15 +40,23 @@ namespace NewWebApp.Model
             return ds.Tables[table];
         }
 
-        public bool UserExist(User user, string table)
+        public User GetUser(User user, string table)
         {
             string SQLStr = $"SELECT * FROM [{table}] WHERE Username LIKE '{user.Username}' AND Password LIKE '{user.Password}'";
             DataTable dt = RetrieveTable(SQLStr, table);
-
+            User user1 = new User();
             if (dt.Rows.Count > 0)
-                return true;
-            else
-                return false;
+            // User found - get his first name and admin flag
+            {
+                DataRow dr = dt.Rows[0];
+
+                user1.Firstname = dr["First name"].ToString();
+                user1.Admin = dr["Admin"].ToString();
+
+                return user1;
+            }
+
+            return null;
         }
         public int Insert(User user, string table)
         // The Method recieve a user objects and insert it to the Database as new row. 

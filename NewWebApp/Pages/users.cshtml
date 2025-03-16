@@ -1,0 +1,33 @@
+﻿@page
+@model NewWebApp.Pages.usersModel
+@{
+    ViewData["Title"] = "Registered Users";
+}
+@using System.Data;
+
+<h2>Registered Users</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            @foreach (DataColumn column in Model.dt.Columns)
+            {
+                <th>@column.ColumnName</th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (DataRow row in Model.dt.Rows)
+        {
+            <tr>
+                @foreach (DataColumn column in Model.dt.Columns)
+                {
+                    <td>@row[column]</td>
+                }
+                <td><a asp-page="/Content/Update" asp-route-param="@row["Id"]">update</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+

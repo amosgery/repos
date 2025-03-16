@@ -14,12 +14,12 @@ namespace NewWebApp.Pages
         public IActionResult OnPost(User NewUser)
         {
             Helper helper = new Helper();
-            bool userExist = helper.UserExist(NewUser, "Users");
+            User user = helper.GetUser(NewUser, "Users");
 
-            if (userExist)
+            if (user != null)
             {
-                HttpContext.Session.SetString("Login", NewUser.Username);
-                HttpContext.Session.SetString("Admin", NewUser.Admin.ToString());
+                HttpContext.Session.SetString("Login", user.Firstname);
+                HttpContext.Session.SetString("Admin", user.Admin);
                 return RedirectToPage("/Index");
             }
             Msg = "Wrong username or password.";
