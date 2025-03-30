@@ -1,14 +1,12 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
-using Android.Runtime;
 using Android.Widget;
-using AndroidX.AppCompat.App;
 
 namespace CountDownTimer
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : Activity
     {
         private TextView countdownTextView;
         private MyCountdownTimer countdownTimer;

@@ -19,10 +19,13 @@ namespace TextToSpeech
         {
             this.context = context;
             textToSpeech = new TextToSpeech(context, this);
+
         }
 
         public void OnInit(OperationResult status)
         {
+            var availableLanguages = textToSpeech.AvailableLanguages;
+
             if (status == OperationResult.Success)
             {
                 // Set language to Hebrew
