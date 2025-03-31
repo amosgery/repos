@@ -9,6 +9,7 @@ namespace TextToSpeech
     using Android.Speech.Tts;
     using Android.Content;
     using Android.OS;
+    using Java.Util;
 
     public class TextToSpeechHelper : Java.Lang.Object, TextToSpeech.IOnInitListener
     {
@@ -18,43 +19,51 @@ namespace TextToSpeech
         public TextToSpeechHelper(Context context)
         {
             this.context = context;
-            textToSpeech = new TextToSpeech(context, this);
+            textToSpeech = new TextToSpeech(context, this, "com.google.android.tts");
 
         }
 
         public void OnInit(OperationResult status)
         {
-            var availableLanguages = textToSpeech.AvailableLanguages;
+            //var availableLanguages = textToSpeech.AvailableLanguages;
 
             if (status == OperationResult.Success)
             {
                 // Set language to Hebrew
-                textToSpeech.SetLanguage(Java.Util.Locale.ForLanguageTag("he-IL"));
+                //textToSpeech.SetLanguage(Java.Util.Locale.ForLanguageTag("he-IL"));
             }
             else
             {
+
                 // Initialization failed
             }
         }
 
         public void Speak(string text)
         {
-            if (textToSpeech.IsLanguageAvailable(Java.Util.Locale.ForLanguageTag("he-IL")) == LanguageAvailableResult.Available)
-            {
-                textToSpeech.Speak(text, QueueMode.Flush, null, null);
-            }
-            else
-            {
-                // Hebrew language not available
-                textToSpeech.Speak(text, QueueMode.Flush, null, null);
-
-            }
+               textToSpeech.Speak(text, QueueMode.Flush, null, null);
         }
 
         public void Shutdown()
         {
             textToSpeech.Stop();
             textToSpeech.Shutdown();
+        }
+
+        internal List<string> GetLanguageList()
+        {
+            List<string> availableLanguagesList = new List<string>();
+            var availableLanguages = textToSpeech.AvailableLanguages;
+
+
+            foreach (Voice voice in textToSpeech.Voices)
+            {
+                Locale locale = voice.Locale;
+                
+                availableLanguagesList.Add($"{locale.DisplayName} ({locale.Language}-{locale.Country})");
+            }
+
+            return availableLanguagesList;
         }
     }
 
