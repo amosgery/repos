@@ -34,6 +34,10 @@ namespace OptionsMenu
                     Toast.MakeText(this, "About Clicked", ToastLength.Short).Show();
                     return true;
 
+                case Resource.Id.action_exit:
+                    Finish();
+                    return true;
+
                 default:
                     return base.OnOptionsItemSelected(item);
             }
