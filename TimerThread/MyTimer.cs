@@ -26,7 +26,9 @@ namespace TimerThread
                     Console.WriteLine("Tick: " + DateTime.Now);
                     activity.RunOnUiThread(() =>
                     {
-                        textView.Text = counter++.ToString();
+                        TimeSpan time = TimeSpan.FromSeconds(counter++);
+                        textView.Text = string.Format("{0:D2}:{1:D2}", time.Minutes, time.Seconds);
+
                     });
                        // Sleep for 1 second
                         Thread.Sleep(1000);
