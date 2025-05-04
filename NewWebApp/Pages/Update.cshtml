@@ -1,0 +1,85 @@
+﻿@page
+@model NewWebApp.Pages.UpdateModel
+@{
+}
+<body>
+    <div class="container">
+        <h1 class="mt-5">Update</h1>
+        <div id="message" class="error" name="message">@Model.Msg</div>
+
+        <form id="updateForm" class="form-horizontal" method="post">
+            <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">ID</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="User.ID" class="form-control" id="id" readonly required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">Username</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="User.Username" class="form-control" id="username" placeholder="Enter username" required>
+                    <div id="usernameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" asp-for="User.Password" class="form-control" id="password" placeholder="Enter password" required>
+                    <div id="passwordError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="User.Firstname" class="form-control" id="firstName" placeholder="Enter first name" required>
+                    <div id="firstNameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-sm-2 col-form-label">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="User.Lastname" class="form-control" id="lastName" placeholder="Enter last name" required>
+                    <div id="lastNameError" class="error"></div>
+
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="User.Birthdate" class="col-sm-2 col-form-label">Birthdate</label>
+                <div class="col-sm-10">
+                    <input type="date" asp-for="User.Birthdate" class="form-control" id="birthdate" required>
+                    <div id="birthdateError" class="error"></div>
+
+                </div>
+            </div>
+           
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Admin</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        @if (!string.IsNullOrEmpty(Model.User.Admin))
+                        {
+                            <input class="form-check-input" asp-for="Admin" type="checkbox" id="admin" checked>
+                        }
+                        else
+                        {
+                            <input class="form-check-input" asp-for="Admin" type="checkbox" id="admin" unchecked>
+                        }
+
+                        <label class="form-check-label" asp-for="Admin">Admin</label>
+                    </div>
+                </div>
+            </div>
+            <script>
+                if (Boolean("@Model.SuccessMsg") == true) {
+                    alert("alert: " + "@Model.SuccessMsg")
+                    window.location.href = "Users";
+                }
+
+            </script>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</body>

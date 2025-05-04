@@ -130,9 +130,9 @@ namespace NewWebApp.Model
         {
             string SQL = $"UPDATE {table} " +
                 $"SET Username='{user.Username}', Password = '{user.Password}', " +
-                $"First name  = '{user.Firstname}', Last name = '{user.Lastname}', " +
+                $"[First name]  = '{user.Firstname}', [Last name] = '{user.Lastname}', " +
                 $"Admin = '{user.Admin.ToString()}', " +
-                $"Birth date = '{user.Birthdate:dd-MM-yyyy}' " +
+                $"[Birth date] = '{user.Birthdate}' " +
                 $"WHERE Id = {user.ID}";
             int n = ExecuteNonQuery(SQL);
             return n;
