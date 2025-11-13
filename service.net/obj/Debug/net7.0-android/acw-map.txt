@@ -1,6 +1,0 @@
-service.net.MainActivity, service.net;crc6475e4e3b5c96a211c.MainActivity
-service.net.MainActivity;crc6475e4e3b5c96a211c.MainActivity
-service.net.MainActivity;crc6475e4e3b5c96a211c.MainActivity
-service.net.BackgroundMusicService, service.net;crc6475e4e3b5c96a211c.BackgroundMusicService
-service.net.BackgroundMusicService;crc6475e4e3b5c96a211c.BackgroundMusicService
-service.net.BackgroundMusicService;crc6475e4e3b5c96a211c.BackgroundMusicService

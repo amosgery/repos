@@ -1,6 +1,0 @@
-TicTacToe_OOP.MainActivity, Android.NET;crc64c8949850ecd61f40.MainActivity
-TicTacToe_OOP.MainActivity;crc64c8949850ecd61f40.MainActivity
-tictactoe_oop.MainActivity;crc64c8949850ecd61f40.MainActivity
-TicTacToe_OOP.TicTacToeButton, Android.NET;crc64c8949850ecd61f40.TicTacToeButton
-TicTacToe_OOP.TicTacToeButton;crc64c8949850ecd61f40.TicTacToeButton
-tictactoe_oop.TicTacToeButton;crc64c8949850ecd61f40.TicTacToeButton

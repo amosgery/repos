@@ -1,3 +1,0 @@
-Calc.Net.MainActivity, Calc.Net;crc644b8b96a867d2528e.MainActivity
-Calc.Net.MainActivity;crc644b8b96a867d2528e.MainActivity
-calc.net.MainActivity;crc644b8b96a867d2528e.MainActivity

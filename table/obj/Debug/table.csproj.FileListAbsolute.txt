@@ -1,8 +1,0 @@
-C:\Users\amos_\source\repos\table\bin\Debug\table.exe.config
-C:\Users\amos_\source\repos\table\bin\Debug\table.exe
-C:\Users\amos_\source\repos\table\bin\Debug\table.pdb
-C:\Users\amos_\source\repos\table\obj\Debug\table.csproj.AssemblyReference.cache
-C:\Users\amos_\source\repos\table\obj\Debug\table.csproj.SuggestedBindingRedirects.cache
-C:\Users\amos_\source\repos\table\obj\Debug\table.csproj.CoreCompileInputs.cache
-C:\Users\amos_\source\repos\table\obj\Debug\table.exe
-C:\Users\amos_\source\repos\table\obj\Debug\table.pdb

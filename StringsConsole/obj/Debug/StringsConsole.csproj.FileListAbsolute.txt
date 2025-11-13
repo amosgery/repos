@@ -1,8 +1,0 @@
-C:\Users\amos_\source\repos\StringsConsole\bin\Debug\StringsConsole.exe.config
-C:\Users\amos_\source\repos\StringsConsole\bin\Debug\StringsConsole.exe
-C:\Users\amos_\source\repos\StringsConsole\bin\Debug\StringsConsole.pdb
-C:\Users\amos_\source\repos\StringsConsole\obj\Debug\StringsConsole.csproj.AssemblyReference.cache
-C:\Users\amos_\source\repos\StringsConsole\obj\Debug\StringsConsole.csproj.SuggestedBindingRedirects.cache
-C:\Users\amos_\source\repos\StringsConsole\obj\Debug\StringsConsole.csproj.CoreCompileInputs.cache
-C:\Users\amos_\source\repos\StringsConsole\obj\Debug\StringsConsole.exe
-C:\Users\amos_\source\repos\StringsConsole\obj\Debug\StringsConsole.pdb

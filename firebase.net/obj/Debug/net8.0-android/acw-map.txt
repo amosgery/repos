@@ -1,3 +1,0 @@
-firebase.net.MainActivity, firebase.net;crc646509cb4bdb2aef30.MainActivity
-firebase.net.MainActivity;crc646509cb4bdb2aef30.MainActivity
-firebase.net.MainActivity;crc646509cb4bdb2aef30.MainActivity
