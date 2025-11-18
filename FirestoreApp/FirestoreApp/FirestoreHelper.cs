@@ -3,6 +3,7 @@ using Android.Content;
 using Android.Gms.Extensions;
 using Android.Runtime;
 using Firebase;
+using Firebase.Auth;
 using Firebase.Firestore;
 using Java.Util;
 
@@ -46,23 +47,61 @@ namespace FirestoreApp
             }
         }
 
-        public async Task AddDocumentAsync(string collection, Dictionary<string, Java.Lang.Object> data)
+        public async Task<int> AddDocumentAsync(string collection, Dictionary<string, Java.Lang.Object> data)
         {
             if (firestore == null)
                 throw new InvalidOperationException("Firestore not initialized. Call FirestoreHelper.Initialize(context) first.");
 
-            Java.Lang.Object name, age, val;
-            data.TryGetValue("Name", out name);
-            data.TryGetValue("Age", out age);
-            var p = await GetUserAsync(name.ToString(), age.ToString());
-            if (p== null)
+            Java.Lang.Object name, age, email, pass;
+
+            if (data.TryGetValue("Name", out name) && data.TryGetValue("Age", out age))
             {
-                await firestore.Collection(collection).Add(new HashMap(data));
+                var p = await GetUserAsync(name.ToString(), age.ToString());
+                if (p == null)
+                {
+                    // New user
+                    if (data.TryGetValue("Email", out email) && data.TryGetValue("Password", out pass))
+                    {
+                        try
+                        {
+                            // Register
+                            var user = await RegisterUserAsync(email.ToString(), pass.ToString());
+                            
+                            Console.WriteLine("User created: " + user.Email);
+                            return 1;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                    }
+                    // add it to the users collection
+                    await firestore.Collection(collection).Add(new HashMap(data));
+                    return 3;  // user added but not registered
+                }
+                else
+                {
+                    // Existing user
+                    if (data.TryGetValue("Email", out email) && data.TryGetValue("Password", out pass))
+                    {
+                        try
+                        {
+                            var user = await LoginAsync(email.ToString(), pass.ToString());
+                            if (user != null)
+                                Console.WriteLine($"User {name} logged in");
+                            return 2;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+
+                    }
+                    Console.WriteLine($"User {name} aged {age} already exist");
+                    return 4;  // user exists but not registered
+                }
             }
-            else
-            {
-                Console.WriteLine($"User {name} aged {age} already exist");
-            }
+            return 0;
         }
 
         public async Task<QuerySnapshot> GetAllDocumentsAsync(string collection)
@@ -115,6 +154,40 @@ namespace FirestoreApp
 
 
             return p;
+        }
+
+        public async Task<FirebaseUser> RegisterUserAsync(string email, string password)
+        {
+            try
+            {
+                var auth = FirebaseAuth.Instance;
+
+                // Register user
+                var result = await auth.CreateUserWithEmailAndPasswordAsync(email, password);
+
+                // Return Firebase user info
+                return result.User;
+            }
+            catch (FirebaseAuthUserCollisionException)
+            {
+                throw new Exception("Email already exists.");
+            }
+            catch (FirebaseAuthWeakPasswordException)
+            {
+                throw new Exception("Password is too weak.");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Registration failed: " + ex.Message);
+            }
+        }
+
+        public async Task<FirebaseUser> LoginAsync(string email, string password)
+        {
+            var auth = FirebaseAuth.Instance;
+
+            var result = await auth.SignInWithEmailAndPasswordAsync(email, password);
+            return result.User;
         }
 
 

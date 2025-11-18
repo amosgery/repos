@@ -16,8 +16,8 @@
     <GoogleServicesJson Include="Assets\google-services.json" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Firebase.Firestore" Version="124.9.1" />
-    <PackageReference Include="Xamarin.Firebase.Storage" Version="120.2.1" />
+    <PackageReference Include="Xamarin.Firebase.Auth" Version="121.0.1.8" />
+    <PackageReference Include="Xamarin.Firebase.Firestore" Version="124.1.2" />
   </ItemGroup>
 
 </Project>
