@@ -47,6 +47,20 @@ namespace FirestoreApp
             if ((val = data.Get("Password")) != null)
                 Password = val.ToString();
         }
+
+        public void SetPerson(Dictionary<string, Java.Lang.Object> data)
+        {
+            Java.Lang.Object val;
+            if (data.TryGetValue("Name", out val))
+                Name = val.ToString();
+            if (data.TryGetValue("Age", out val))
+                Age = int.Parse(val.ToString());
+            if (data.TryGetValue("Email", out val))
+                Email = val.ToString();
+            if (data.TryGetValue("Password", out val))
+                Password = val.ToString();
+
+        }
     }
 
 

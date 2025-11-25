@@ -1,56 +1,122 @@
+﻿using Android.Content;
 using Android.Gms.Extensions;
+using Android.Widget;
+using Firebase.Auth;
 using Firebase.Firestore;
+using Java.Nio.FileNio;
+using Java.Util;
 
 namespace FirestoreApp
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        Button addBtn;
-        EditText etName, etAge, etEmail, etPass;
+        Button regBtn, logBtn;
         TextView etMsg;
+        ListView listview;
         FirestoreListener listener = new FirestoreListener();
-        protected override void OnCreate(Bundle? savedInstanceState)
+        protected override async void OnCreate(Bundle? savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             etMsg = FindViewById<TextView>(Resource.Id.msg);
-            etName = FindViewById<EditText>(Resource.Id.name);
-            etEmail = FindViewById<EditText>(Resource.Id.email);
-            etPass = FindViewById<EditText>(Resource.Id.password);
-            etAge = FindViewById<EditText>(Resource.Id.age);
-            addBtn = FindViewById<Button>(Resource.Id.addBtn);
+            regBtn = FindViewById<Button>(Resource.Id.register);
+            logBtn = FindViewById<Button>(Resource.Id.login);
+            listview = FindViewById<ListView>(Resource.Id.listview);
 
-            addBtn.Click += AddBtn_Click;
+        
+            listview.ItemClick += (sender, e) =>
+            {
+                string item = listview.Adapter.GetItem(e.Position).ToString();
+                Toast.MakeText(this, "Clicked: " + item, ToastLength.Short).Show();
+            };
+
+            regBtn.Click += regBtn_Click;
+            logBtn.Click += logBtn_Ckick;
+            listener.OnDataChanged += Listener_OnDataChanged;
+
+            var db = new FirestoreHelper(this);
+            var user = await db.GetCurrentUser();
+            if (user != null)
+            {
+                Person p = new Person();
+                p.SetPerson(user);
+                etMsg.Text = "Welcome "+ p.Name;
+            }
+        }
+
+        private async void Listener_OnDataChanged(QuerySnapshot snapshot)
+        {
+            UpdateListview();
+            foreach (var change in snapshot.DocumentChanges)
+            {
+                string name = change.Document.Get("Name").ToString();
+                var db = new FirestoreHelper(this);
+
+                QuerySnapshot users = await db.GetUserByName(name);
+                foreach (var user in users.Documents)
+                {
+                    Console.WriteLine(user.Id);
+
+                    Person person = new Person();
+                    person.SetPerson(user);
+                }
+
+                if (change.GetType() == DocumentChange.Type.Added)
+                {
+                    Console.WriteLine($"Firestore, 🟢 Added user: {name}");
+                    Toast.MakeText(this, "User Added: " + name, ToastLength.Short).Show();
+                }
+                else if (change.GetType() == DocumentChange.Type.Modified)
+                {
+                    Console.WriteLine($"Firestore, 🟢 Modified user: {name}");
+                    Toast.MakeText(this, "User Updated: " + name, ToastLength.Short).Show();
+                }
+                else if (change.GetType() == DocumentChange.Type.Removed)
+                {
+                    Console.WriteLine($"Firestore, 🟢 Removed user: {name}");
+                    Toast.MakeText(this, "User Removed: " + name, ToastLength.Short).Show();
+                }
+
+            }
+
 
         }
 
-        private async void AddBtn_Click(object? sender, EventArgs e)
+        private async void UpdateListview()
         {
-            var db = new FirestoreHelper(this);
 
-            Person p = new Person(etName.Text, int.Parse(etAge.Text), etEmail.Text, etPass.Text);
-            int result = await db.AddDocumentAsync("users", p.GetAsDictionary());
-            switch (result)
+            var db = new FirestoreHelper(this);
+            List<Person> persons = await db.GetAllPersonAsync("users");
+            string[] items = new string[persons.Count];
+            int index = 0;
+            foreach (Person p in persons)
             {
-                case 1:
-                    etMsg.Text = "User " + p.Name + " registered successfuly";
-                    break;
-                case 2:
-                    etMsg.Text = "User " + p.Name + " logged in successfuly";
-                    break;
-                case 3:
-                    etMsg.Text = "User " + p.Name + " added but not registered";
-                    break;
-                case 4:
-                    etMsg.Text = "User " + p.Name + " exists but not logged in";
-                    break;
-                default:
-                    etMsg.Text = "User " + p.Name + "not valid";
-                    break;
+                items[index++] = p.Name + " " + p.Email + " " + p.Age;
             }
+
+            var adapter = new ArrayAdapter<string>(
+                this,
+                Android.Resource.Layout.SimpleListItem1,
+                items
+            );
+
+            listview.Adapter = adapter;
+        }
+
+        private void logBtn_Ckick(object? sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(login));
+            StartActivity(intent);
+            getAll();
+        }
+
+        private void regBtn_Click(object? sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(register));
+            StartActivity(intent);
             getAll();
         }
 
@@ -70,6 +136,8 @@ namespace FirestoreApp
         {
             base.OnDestroy();
             listener.StopListening();
+            FirebaseAuth.Instance.SignOut();
+
 
         }
     }

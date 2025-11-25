@@ -5,7 +5,9 @@ using Android.Runtime;
 using Firebase;
 using Firebase.Auth;
 using Firebase.Firestore;
+using Firebase.Firestore.Auth;
 using Java.Util;
+using static Android.Provider.ContactsContract.CommonDataKinds;
 
 
 namespace FirestoreApp
@@ -30,8 +32,8 @@ namespace FirestoreApp
                 {
                     // Fallback: initialize manually (optional, if google-services.json not auto-handled)
                     var options = new FirebaseOptions.Builder()
-                        .SetProjectId("xamarinfirstapp-2ae7d")
-                        .SetApplicationId("1:1045228157856:android:cf39db243843b7c28442c5")
+                        .SetProjectId("your-project-id")
+                        .SetApplicationId("your-app-id")
                         .SetApiKey("your-api-key")
                         .SetStorageBucket("your-project-id.appspot.com")
                         .Build();
@@ -49,59 +51,86 @@ namespace FirestoreApp
 
         public async Task<int> AddDocumentAsync(string collection, Dictionary<string, Java.Lang.Object> data)
         {
+            int result = 0;
             if (firestore == null)
                 throw new InvalidOperationException("Firestore not initialized. Call FirestoreHelper.Initialize(context) first.");
 
-            Java.Lang.Object name, age, email, pass;
+            Java.Lang.Object name, age, email, pass, user = null;
 
-            if (data.TryGetValue("Name", out name) && data.TryGetValue("Age", out age))
+            if (data.TryGetValue("Email", out email) && data.TryGetValue("Password", out pass))
             {
-                var p = await GetUserAsync(name.ToString(), age.ToString());
-                if (p == null)
+                try
                 {
-                    // New user
-                    if (data.TryGetValue("Email", out email) && data.TryGetValue("Password", out pass))
+                    user = await LoginAsync(email.ToString(), pass.ToString());
+                    if (user == null)
                     {
-                        try
+                        // New user
+
+                        // Register
+                        user = await RegisterUserAsync(email.ToString(), pass.ToString());
+                        if (user == null)
                         {
-                            // Register
-                            var user = await RegisterUserAsync(email.ToString(), pass.ToString());
-                            
-                            Console.WriteLine("User created: " + user.Email);
-                            return 1;
+                            Console.WriteLine("User registation failed: " + email);
+                            result = 1;
                         }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex.Message);
-                        }
-                    }
-                    // add it to the users collection
-                    await firestore.Collection(collection).Add(new HashMap(data));
-                    return 3;  // user added but not registered
-                }
-                else
-                {
-                    // Existing user
-                    if (data.TryGetValue("Email", out email) && data.TryGetValue("Password", out pass))
-                    {
-                        try
-                        {
-                            var user = await LoginAsync(email.ToString(), pass.ToString());
-                            if (user != null)
-                                Console.WriteLine($"User {name} logged in");
-                            return 2;
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex.Message);
-                        }
+                        else
+                            Console.WriteLine("User registered: " + email);
 
                     }
-                    Console.WriteLine($"User {name} aged {age} already exist");
-                    return 4;  // user exists but not registered
+                    else
+                    {
+                        // user already registered - update it's data
+                        data.Remove("Email");
+                        data.Remove("Password");
+                        var newUser = user as FirebaseUser;
+                        await firestore.Collection(collection).Document(newUser.Uid).Set(new HashMap(data));
+                        // user added but not registered
+                        result = 2;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // user is not registered
+                    Console.WriteLine(ex.Message);
+                    try
+                    {
+                        // Register
+                        user = await RegisterUserAsync(email.ToString(), pass.ToString());
+                        if (user == null)
+                        {
+                            Console.WriteLine("User registation failed: " + email);
+                            result = 1;
+                        }
+                        else
+                            Console.WriteLine("User registered: " + email);
+                    }
+                    catch (Exception except)
+                    {
+                        Console.WriteLine(except.Message);
+                        result = 1;
+                    }
+
+                }
+                if (result == 0)
+                {
+                    // add it to the users collection without username and password
+                    data.Remove("Email");
+                    data.Remove("Password");
+                    var newUser = user as FirebaseUser;
+                    await firestore.Collection(collection).Document(newUser.Uid).Set(new HashMap(data));
+                    // user added but not registered
                 }
             }
-            return 0;
+            else
+            {
+                // No email or password
+
+                Console.WriteLine($"Cannot register user");
+                result = 1;  // user exists 
+            }
+
+
+            return result;
         }
 
         public async Task<QuerySnapshot> GetAllDocumentsAsync(string collection)
@@ -119,7 +148,7 @@ namespace FirestoreApp
             List<Person> personList = new List<Person>();
             if (arrayList != null)
             {
-                foreach(DocumentSnapshot doc in arrayList.Documents)
+                foreach (DocumentSnapshot doc in arrayList.Documents)
                 {
                     Person p = new Person();
                     p.SetPerson(doc);
@@ -129,31 +158,58 @@ namespace FirestoreApp
             }
             return personList;
         }
-        public async Task<DocumentSnapshot> GetUserAsync(string name, string age)
+        public async Task<DocumentSnapshot> GetUserAsync(string uid)
+        {
+
+            DocumentSnapshot snapshot = null;
+            try
+            {
+
+                var query = firestore.Collection("users").Document(uid);
+                snapshot = (DocumentSnapshot)await query.Get();
+
+                if (snapshot == null)
+                {
+                    Console.WriteLine("No matching users found.");
+                    return null;
+                }
+                else
+                {
+                    Java.Lang.Object str;
+                    str = snapshot.Get("Name");
+                    Console.WriteLine($"Found user: {str}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return snapshot;
+        }
+
+        public async Task<QuerySnapshot> GetUserByName(string name)
         {
             var db = FirebaseFirestore.Instance;
-
-            int iage = int.Parse(age);
-            // Query users where email == the given email
-            var query = db.Collection("users").WhereEqualTo("Name", name).WhereEqualTo("Age", iage);
-            QuerySnapshot snapshot = (QuerySnapshot)await query.Get();
-
-            if (snapshot.Documents.Count == 0)
+            QuerySnapshot snapshot = null;
+            try
             {
-                Console.WriteLine("No matching users found.");
-                return null;
+
+                var query = await db.Collection("users").WhereEqualTo("Name", name).Get();
+                snapshot = query as QuerySnapshot;
+
+                if (snapshot == null)
+                {
+                    Console.WriteLine("No matching users found.");
+                    return null;
+                }
+
+                return snapshot;
             }
-            DocumentSnapshot p = null;
-            foreach (DocumentSnapshot doc in snapshot.Documents)
+            catch (Exception ex)
             {
-                Java.Lang.Object str;
-                str = doc.Get("Name");
-                Console.WriteLine($"Found user: {str}");
-                p = doc;
+                Console.WriteLine(ex.Message);
             }
-
-
-            return p;
+            return snapshot;
         }
 
         public async Task<FirebaseUser> RegisterUserAsync(string email, string password)
@@ -184,12 +240,46 @@ namespace FirestoreApp
 
         public async Task<FirebaseUser> LoginAsync(string email, string password)
         {
-            var auth = FirebaseAuth.Instance;
+            try
+            {
+                var auth = FirebaseAuth.Instance;
 
-            var result = await auth.SignInWithEmailAndPasswordAsync(email, password);
-            return result.User;
+                var result = await auth.SignInWithEmailAndPasswordAsync(email, password);
+                return result.User;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
         }
+        public async Task<Dictionary<string, Java.Lang.Object>> GetCurrentUser()
+        {
+            try
+            {
+                var user = FirebaseAuth.Instance.CurrentUser;
+                if (user != null)
+                {
+                    var data = new Dictionary<string, Java.Lang.Object>();
+                    DocumentSnapshot u = await GetUserAsync(user.Uid);
+                    if (u != null)
+                    {
+                        foreach (var entry in u.Data)
+                            data[entry.Key] = entry.Value;
+                    }
 
+                    // Add fields you want
+                    data["Email"] = new Java.Lang.String(user.Email);
 
+                    return data;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return null;
+        }
     }
 }

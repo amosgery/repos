@@ -9,29 +9,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Welcome"
+        android:text="Enter registered user:"
         android:textSize="30sp"
         android:id="@+id/msg"
     />
-       <Button
+    <EditText 
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email"
         android:textSize="30sp"
-        android:text="Register"
         android:layout_marginTop="30dp"
-        android:id="@+id/register"
-        />
+        android:id="@+id/email"
+    />
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/password"
+    />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:textSize="30sp"
         android:text="Login"
         android:layout_marginTop="30dp"
-        android:id="@+id/login"
+        android:id="@+id/addBtn"
         />
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listview"/>
-
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:textSize="30sp"
+    android:text="Update"
+    android:layout_marginTop="30dp"
+    android:id="@+id/updateBtn"
+        />
 </LinearLayout>
