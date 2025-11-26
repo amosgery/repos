@@ -31,6 +31,9 @@ namespace FirestoreApp
             {
                 string item = listview.Adapter.GetItem(e.Position).ToString();
                 Toast.MakeText(this, "Clicked: " + item, ToastLength.Short).Show();
+                Intent intent = new Intent(this, typeof(update));
+                intent.PutExtra("item", e.Position);
+                StartActivity(intent);
             };
 
             regBtn.Click += regBtn_Click;

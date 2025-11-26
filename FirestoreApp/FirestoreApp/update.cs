@@ -1,41 +1,38 @@
 using Android.AdServices.Common;
 using Android.Content;
-using Firebase.Auth;
 using Javax.Security.Auth;
 
 namespace FirestoreApp;
 
-[Activity(Label = "register")]
-public class register : Activity
+[Activity(Label = "update")]
+public class update : Activity
 {
-    EditText etName, etAge, etEmail, etPass;
+    EditText etName, etAge;
     Button addBtn;
     TextView etMsg;
-
+    Person p;
+    int item=0;
 
     protected override async void OnCreate(Bundle? savedInstanceState)
     {
         base.OnCreate(savedInstanceState);
-        SetContentView(Resource.Layout.register);
+        SetContentView(Resource.Layout.update);
 
         etName = FindViewById<EditText>(Resource.Id.name);
-        etEmail = FindViewById<EditText>(Resource.Id.email);
-        etPass = FindViewById<EditText>(Resource.Id.password);
         etAge = FindViewById<EditText>(Resource.Id.age);
         addBtn = FindViewById<Button>(Resource.Id.addBtn);
         etMsg = FindViewById<TextView>(Resource.Id.msg);
 
         addBtn.Click += AddBtn_Click;
 
+        item = Intent.GetIntExtra("item", 0);
         var db = new FirestoreHelper(this);
-        var user = await db.GetCurrentUser();
+        var user = await db.GetUser(item);
         if (user != null)
         {
-            Person p = new Person();
+            p = new Person();
             p.SetPerson(user);
             etName.Text = p.Name;
-            etEmail.Text = p.Email;
-            etPass.Text = p.Password;
             etAge.Text = p.Age.ToString();
             etMsg.Text = "Welcome " + p.Name;
 
@@ -46,35 +43,23 @@ public class register : Activity
     {
         var db = new FirestoreHelper(this);
 
-        Person p = new Person(etName.Text, int.Parse(etAge.Text), etEmail.Text, etPass.Text);
-        try
-        {
-            FirebaseUser usr = await db.RegisterUserAsync(etEmail.Text, etPass.Text);
-            if (usr != null)
-            {
-                int result = await db.AddDocumentAsync("users", p.GetAsDictionary());
-                switch (result)
-                {
-                    case 1:
-                        etMsg.Text = "User " + p.Name + " registration failed";
-                        break;
-                    case 2:
-                        etMsg.Text = "User " + p.Name + " already registered";
-                        break;
-                    default:
-                        etMsg.Text = "User " + p.Name + " registered successfuly";
-                        break;
-                }
-                CreateAlertDialog(etMsg.Text);
-            }
+        p.Name = etName.Text;
+        p.Age = int.Parse(etAge.Text);
 
-
-        }
-        catch (Exception ex)
+        int result = await db.UpdateDocument("users", p.GetAsDictionary());
+        switch (result)
         {
-            CreateAlertDialog("Registration failed: "+ex.Message);
+            case 1:
+                etMsg.Text = "User " + p.Name + " update failed";
+                break;
+            case 2:
+                etMsg.Text = "User " + p.Name + " updated";
+                break;
+            default:
+                etMsg.Text = "User " + p.Name + " updated successfuly";
+                break;
         }
- 
+        CreateAlertDialog(etMsg.Text);
     }
     private void CreateAlertDialog(string msg)
     {

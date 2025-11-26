@@ -13,6 +13,7 @@
     <None Remove="google-services.json" />
     <None Remove="Resources\layout\login.xml" />
     <None Remove="Resources\layout\register.xml" />
+    <None Remove="Resources\layout\update.xml" />
   </ItemGroup>
   <ItemGroup>
     <GoogleServicesJson Include="Assets\google-services.json" />

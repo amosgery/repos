@@ -9,7 +9,7 @@ namespace FirestoreApp;
 public class login : Activity
 {
     EditText etEmail, etPass;
-    Button addBtn, updateBtn;
+    Button addBtn;
     TextView etMsg;
     protected override void OnCreate(Bundle? savedInstanceState)
     {
@@ -22,19 +22,12 @@ public class login : Activity
         etPass = FindViewById<EditText>(Resource.Id.password);
         addBtn = FindViewById<Button>(Resource.Id.addBtn);
         etMsg = FindViewById<TextView>(Resource.Id.msg);
-        updateBtn = FindViewById<Button>(Resource.Id.updateBtn);
 
         addBtn.Click += AddBtn_Click;
-        updateBtn.Click += updateBtn_Click;
 
         // Create your application here
     }
 
-    private void updateBtn_Click(object? sender, EventArgs e)
-    {
-        Intent intent = new Intent(this, typeof(register));
-        StartActivity(intent);
-    }
 
     private async void AddBtn_Click(object? sender, EventArgs e)
     {

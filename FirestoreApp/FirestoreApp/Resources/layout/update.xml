@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Enter registered user:"
+        android:text="Register a new user:"
         android:textSize="30sp"
         android:id="@+id/msg"
     />
@@ -17,29 +17,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:inputType="textEmailAddress"
-        android:hint="Enter email"
+        android:hint="Enter a name"
         android:textSize="30sp"
         android:layout_marginTop="30dp"
-        android:id="@+id/email"
+        android:id="@+id/name"
     />
     <EditText 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:inputType="textPassword"
-        android:hint="Enter password"
+        android:hint="Enter age"
         android:textSize="30sp"
         android:layout_marginTop="30dp"
-        android:id="@+id/password"
+        android:id="@+id/age"
     />
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:textSize="30sp"
-        android:text="Login"
+        android:text="Save"
         android:layout_marginTop="30dp"
         android:id="@+id/addBtn"
         />
-
 </LinearLayout>
