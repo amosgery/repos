@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.flowerML</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\flower_labels.txt" />
+    <None Remove="Assets\flower_model.tflite" />
+    <None Remove="Assets\notes_labels.txt" />
+    <None Remove="Assets\notes_model.tflite" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.TensorFlow.Lite" Version="2.16.1.6" />
+  </ItemGroup>
+</Project>
