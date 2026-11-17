@@ -22,7 +22,7 @@ namespace GeminiAPI
 
             btnSend.Click += BtnSend_Click;
 
-            client = new GeminiClient("AIzaSyDh0Me23bGkBvg28V52Cglu_LWMCPbsLIo");
+            client = new GeminiClient("API-KEY");
 
         }
 
